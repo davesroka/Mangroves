@@ -149,6 +149,7 @@
     <item quantity="one">коментар</item>
     <item quantity="other">коментари</item>
   </plurals>
+
   <string name="previous">Претходно</string>
   <string name="next">Следно</string>
   <string name="comment">Коментар</string>
