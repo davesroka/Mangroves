@@ -186,7 +186,7 @@
     <string name="pending_upload">Pending Upload</string>
     <string name="fetched">Fetched</string>
     <string name="required_fields">Required Fields</string>
-    <string name="title">Title</string>
+
     <string name="category">Category</string>
     <string name="location">Location</string>
     <string name="description">Description</string>
@@ -194,7 +194,7 @@
     <string name="longitude">Longitude</string>
     <string name="date_and_time">Date and Time</string>
     <string name="enter_news_url">Enter news URL</string>
-    <string name="unsaved_changes">Unsaved Changes</string>
+
     <string name="want_to_cancel">Are you sure you want to cancel?</string>
     <string name="added">Added</string>
     <string name="uploaded">Uploaded</string>
@@ -234,7 +234,7 @@
     <string name="change_time">Change time</string>
     <string name="prompt_mesg">Choose a category to filter</string>
     <string name="invalid_email_address">An invalid email address was entered</string>
-    <string name="choose_categories">Choose categories</string>
+
     <string name="location_disabled">Location detection disabled</string>
     <string name="location_reenable">Would you like to visit Location &amp; Security settings to re-enable location detection?</string>
     <string name="basic_settings">Basic settings</string>
@@ -244,9 +244,6 @@
     <string name="hint_last_name">Also for attribution when submitting a report (optional).</string>
     <string name="txt_email">E-mail address</string>
     <string name="hint_email">For contact purposes only.</string>
-    <string name="txt_phonenumber">Mobile phone number</string>
-    <string name="hint_phonenumber">For send report only.</string>
-    <string name="total_reports">Number of reports</string>
-    <string name="hint_total_reports">The total number of reports to fetch from the selected deployment.</string>
-    <string name="no_reports">There are no reports to be shown</string>
+
+
 </resources>
