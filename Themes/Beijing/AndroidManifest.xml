@@ -55,7 +55,7 @@
             android:name="com.ushahidi.android.app.Settings"
             android:theme="@android:style/Theme.Black.NoTitleBar"
             android:configChanges="screenLayout|orientation|keyboardHidden|touchscreen|navigation"
-            android:label="@string/app_settings" >
+            android:label="@string/settings" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -67,7 +67,7 @@
         <activity
             android:name="com.ushahidi.android.app.ui.phone.AboutActivity"
             android:configChanges="screenLayout|orientation|keyboardHidden|touchscreen|navigation"
-            android:label="@string/ushahidi_about" >
+            android:label="@string/about" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -106,7 +106,7 @@
         <activity
             android:name="com.ushahidi.android.app.ui.phone.AddCheckinActivity"
             android:configChanges="screenLayout|orientation|keyboardHidden|touchscreen|navigation"
-            android:label="@string/checkin_btn" >
+            android:label="@string/checkin" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -132,7 +132,7 @@
         <activity
             android:name="com.ushahidi.android.app.ui.tablet.ListReportActivity"
             android:configChanges="screenLayout|orientation|keyboardHidden|touchscreen|navigation"
-            android:label="@string/view_incident" >
+            android:label="@string/reports" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
