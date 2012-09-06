@@ -11,6 +11,7 @@
       <directory url="file://$PROJECT_DIR$/Themes/Inherity/gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/Themes/Ushahidi/gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/Libraries/abs/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Libraries/cwacmerge/gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>

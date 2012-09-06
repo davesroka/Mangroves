@@ -23,6 +23,7 @@ import android.graphics.drawable.Drawable;
 import android.support.v4.view.MenuItem;
 import android.support.v4.view.SubMenu;
 import android.util.Log;
+import android.view.ActionProvider;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -550,7 +551,11 @@ public final class MenuItemImpl implements MenuItem {
         mMenu.onItemActionRequestChanged(this);
     }
 
-    public MenuItem setActionView(View view) {
+	public android.view.MenuItem setShowAsActionFlags(int i) {
+		return null;  //To change body of implemented methods use File | Settings | File Templates.
+	}
+
+	public MenuItem setActionView(View view) {
         mActionView = view;
         if (view != null && view.getId() == View.NO_ID && mId > 0) {
             view.setId(mId);
@@ -573,4 +578,28 @@ public final class MenuItemImpl implements MenuItem {
             return null;
         }
     }
+
+	public android.view.MenuItem setActionProvider(ActionProvider actionProvider) {
+		return null;  //To change body of implemented methods use File | Settings | File Templates.
+	}
+
+	public ActionProvider getActionProvider() {
+		return null;  //To change body of implemented methods use File | Settings | File Templates.
+	}
+
+	public boolean expandActionView() {
+		return false;  //To change body of implemented methods use File | Settings | File Templates.
+	}
+
+	public boolean collapseActionView() {
+		return false;  //To change body of implemented methods use File | Settings | File Templates.
+	}
+
+	public boolean isActionViewExpanded() {
+		return false;  //To change body of implemented methods use File | Settings | File Templates.
+	}
+
+	public android.view.MenuItem setOnActionExpandListener(OnActionExpandListener onActionExpandListener) {
+		return null;  //To change body of implemented methods use File | Settings | File Templates.
+	}
 }
