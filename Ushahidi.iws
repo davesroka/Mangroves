@@ -12,15 +12,23 @@
     </option>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="INFO" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="WARN" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c8d0104-53bd-4fe8-a143-c930808a7fbb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/cwacmerge/Cwacmerge.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/Core.iml" afterPath="$PROJECT_DIR$/Core/Core.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/project.properties" afterPath="$PROJECT_DIR$/Core/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/src/com/ushahidi/android/app/adapters/BaseSectionListAdapter.java" afterPath="$PROJECT_DIR$/Core/src/com/ushahidi/android/app/adapters/BaseSectionListAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Libraries/abs/project.properties" afterPath="$PROJECT_DIR$/Libraries/abs/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/ActionMenuItem.java" afterPath="$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/ActionMenuItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/MenuItemImpl.java" afterPath="$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/MenuItemImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/MenuItemWrapper.java" afterPath="$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/MenuItemWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Libraries/cwacmerge/project.properties" afterPath="$PROJECT_DIR$/Libraries/cwacmerge/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Beijing/project.properties" afterPath="$PROJECT_DIR$/Themes/Beijing/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Inherity/project.properties" afterPath="$PROJECT_DIR$/Themes/Inherity/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Ushahidi/project.properties" afterPath="$PROJECT_DIR$/Themes/Ushahidi/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ushahidi.ipr" afterPath="$PROJECT_DIR$/Ushahidi.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ushahidi.iws" afterPath="$PROJECT_DIR$/Ushahidi.iws" />
     </list>
     <ignored path="Ushahidi.iws" />
@@ -79,46 +87,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Themes/Inherity/AndroidManifest.xml">
+      <file leaf-file-name="theme.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Core/res/values/theme.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="129" selection-start="2011" selection-end="2011" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Themes/Beijing/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="42" selection-start="5983" selection-end="5983" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenuItemImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/MenuItemImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="47" selection-start="1513" selection-end="1513" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenuItemWrapper.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/MenuItemWrapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="13" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.18705763">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Core/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="36" selection-start="77" selection-end="80" vertical-scroll-proportion="-1.36">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.3704319">
               <folding />
             </state>
           </provider>
@@ -137,10 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/CoreV3/src/com/ushahidi/android/app/activities/BaseMapActivity.java" />
-        <option value="$PROJECT_DIR$/CoreV3/src/com/ushahidi/android/app/activities/BaseActivity.java" />
-        <option value="$PROJECT_DIR$/CoreV3/src/com/ushahidi/android/app/activities/BaseListActivity.java" />
-        <option value="$PROJECT_DIR$/CoreV3/src/com/ushahidi/android/app/views/View.java" />
         <option value="$PROJECT_DIR$/CoreV3/src/com/ushahidi/android/app/views/Widget.java" />
         <option value="$PROJECT_DIR$/CoreV3/src/com/ushahidi/android/app/views/ExampleListView.java" />
         <option value="$PROJECT_DIR$/CoreV3/src/com/ushahidi/android/app/views/ExampleView.java" />
@@ -153,6 +121,10 @@
         <option value="$PROJECT_DIR$/Core/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/Core/res/values-mk/strings.xml" />
         <option value="$PROJECT_DIR$/Themes/Beijing/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/MenuItemWrapper.java" />
+        <option value="$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/ActionMenuItem.java" />
+        <option value="$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/MenuItemImpl.java" />
+        <option value="$PROJECT_DIR$/Core/src/com/ushahidi/android/app/adapters/BaseSectionListAdapter.java" />
       </list>
     </option>
   </component>
@@ -164,7 +136,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -192,6 +164,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,7 +202,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -230,32 +212,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="abs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ushahidi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="abs" />
+              <option name="myItemId" value="Core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -266,7 +232,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -279,15 +245,15 @@
     <property name="AndroidTargetDevices" value="3930EC9FDFD800EC" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ushahidi.android.app" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Application.Beijing">
+  <component name="RunManager" selected="Android Application.Ushahidi">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -410,7 +376,7 @@
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
+      <option name="PREFERRED_AVD" value="ICS-Google-API" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
       <option name="DISABLE_BOOT_ANIMATION" value="false" />
@@ -513,11 +479,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874015" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32799146" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -525,20 +490,21 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4261811" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="2507" y="22" width="981" height="1130" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42521366" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="2507" y="22" width="981" height="1130" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17103153" sideWeight="0.5738189" order="0" side_tool="false" content_ui="combo" x="1440" y="22" width="267" height="1130" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275" sideWeight="0.49717513" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17103153" sideWeight="0.6720086" order="0" side_tool="false" content_ui="combo" x="1440" y="22" width="267" height="1130" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.49717513" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977018" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977018" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.32958803" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="1708" y="22" width="797" height="1130" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.52875" sideWeight="0.49717513" order="9" side_tool="false" content_ui="tabs" x="1708" y="22" width="1017" height="1130" />
     </layout>
@@ -621,104 +587,120 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Core/Core.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Ushahidi/Ushahidi.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="44" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Inherity/Inherity.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="25" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Beijing/Beijing.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="549" selection-end="549" vertical-scroll-proportion="0.13971397" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Inherity/res/values/theme.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.1969197">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Core/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="77" selection-start="1264" selection-end="1264" vertical-scroll-proportion="-0.3179318">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Libraries/abs/res/values-v11/abs__styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="52" selection-end="52" vertical-scroll-proportion="0.05610561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Core/res/layout/add_checkin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.1870187" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Core/res/values-mk/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="230" column="64" selection-start="12766" selection-end="12766" vertical-scroll-proportion="1.430143">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/ActionMenuItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="7" selection-start="959" selection-end="959" vertical-scroll-proportion="0.15470172">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Ushahidi/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="391" column="92" selection-start="16055" selection-end="16055" vertical-scroll-proportion="0.60465115">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Themes/Inherity/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="129" selection-start="2011" selection-end="2011" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Core/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="36" selection-start="77" selection-end="80" vertical-scroll-proportion="-1.36">
-          <folding />
-        </state>
+        <state line="29" column="129" selection-start="2011" selection-end="2011" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Themes/Beijing/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="42" selection-start="5983" selection-end="5983" vertical-scroll-proportion="0.0">
+        <state line="134" column="42" selection-start="5983" selection-end="5983" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="36" selection-start="77" selection-end="80" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/abs/src/android/support/v4/view/MenuItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="17" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/MenuItemImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="47" selection-start="1513" selection-end="1513" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="554" column="6" selection-start="16260" selection-end="16351" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/ActionMenuItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="238" column="6" selection-start="6367" selection-end="6458" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/MenuItemWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.18705763">
+        <state line="162" column="6" selection-start="5849" selection-end="5940" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/src/com/ushahidi/android/app/adapters/BaseSectionListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="43" selection-start="3892" selection-end="3892" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/BUILDING.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/libs/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Ushahidi/libs/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Ushahidi/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="391" column="92" selection-start="16055" selection-end="16055" vertical-scroll-proportion="0.6050605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/src/com/ushahidi/android/app/ui/tablet/DashboardActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="55" selection-start="879" selection-end="879" vertical-scroll-proportion="0.43014303">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Ushahidi/BUILDING.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Ushahidi/res/values/theme.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="128" selection-start="2675" selection-end="2675" vertical-scroll-proportion="0.1210121">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/res/values/theme.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.3704319">
           <folding />
         </state>
       </provider>
@@ -763,7 +745,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Android 4.0.3 Platform</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -775,7 +757,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Inherity</last-edited>
+          <last-edited>Ushahidi</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -21,6 +21,7 @@ import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.support.v4.view.MenuItem;
 import android.support.v4.view.SubMenu;
+import android.view.ActionProvider;
 import android.view.View;
 import android.view.ContextMenu.ContextMenuInfo;
 
@@ -82,7 +83,31 @@ public final class MenuItemWrapper implements MenuItem {
         return null;
     }
 
-    /**
+	public android.view.MenuItem setActionProvider(ActionProvider actionProvider) {
+		return null;  //To change body of implemented methods use File | Settings | File Templates.
+	}
+
+	public ActionProvider getActionProvider() {
+		return null;  //To change body of implemented methods use File | Settings | File Templates.
+	}
+
+	public boolean expandActionView() {
+		return false;  //To change body of implemented methods use File | Settings | File Templates.
+	}
+
+	public boolean collapseActionView() {
+		return false;  //To change body of implemented methods use File | Settings | File Templates.
+	}
+
+	public boolean isActionViewExpanded() {
+		return false;  //To change body of implemented methods use File | Settings | File Templates.
+	}
+
+	public android.view.MenuItem setOnActionExpandListener(OnActionExpandListener onActionExpandListener) {
+		return null;  //To change body of implemented methods use File | Settings | File Templates.
+	}
+
+	/**
      * Set an action view for this menu item. An action view will be displayed
      * in place of an automatically generated menu item element in the UI when
      * this item is shown as an action within a parent.
@@ -134,7 +159,11 @@ public final class MenuItemWrapper implements MenuItem {
         }
     }
 
-    // ---------------------------------------------------------------------
+	public android.view.MenuItem setShowAsActionFlags(int i) {
+		return null;  //To change body of implemented methods use File | Settings | File Templates.
+	}
+
+	// ---------------------------------------------------------------------
     // MENU ITEM SUPPORT
     // ---------------------------------------------------------------------
 

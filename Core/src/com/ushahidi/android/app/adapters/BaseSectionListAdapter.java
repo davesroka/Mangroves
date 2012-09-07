@@ -148,8 +148,8 @@ public abstract class BaseSectionListAdapter<M extends Model> extends
 	/**
 	 * Remove item at specified position
 	 * 
-	 * @param adapter
-	 *            Source for row views for this section
+	 * @param position
+	 *            Position of item to remove
 	 */
 	public void removeItem(int position) {
 
