@@ -12,6 +12,7 @@
       <directory url="file://$PROJECT_DIR$/Themes/Ushahidi/gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/Libraries/abs/gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/Libraries/cwacmerge/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Themes/Mangroves/gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>
@@ -201,6 +202,7 @@
       <module fileurl="file://$PROJECT_DIR$/Themes/Beijing/Beijing.iml" filepath="$PROJECT_DIR$/Themes/Beijing/Beijing.iml" />
       <module fileurl="file://$PROJECT_DIR$/Core/Core.iml" filepath="$PROJECT_DIR$/Core/Core.iml" />
       <module fileurl="file://$PROJECT_DIR$/Themes/Inherity/Inherity.iml" filepath="$PROJECT_DIR$/Themes/Inherity/Inherity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Themes/Mangroves/Mangroves.iml" filepath="$PROJECT_DIR$/Themes/Mangroves/Mangroves.iml" />
       <module fileurl="file://$PROJECT_DIR$/Themes/Ushahidi/Ushahidi.iml" filepath="$PROJECT_DIR$/Themes/Ushahidi/Ushahidi.iml" />
     </modules>
   </component>
