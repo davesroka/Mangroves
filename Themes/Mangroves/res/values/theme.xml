@@ -32,16 +32,17 @@
     <color name="date_color">#262321</color>
     <color name="report_table">#f6f6ee</color>
     <color name="header_color">#3E51BC</color>
-    <color name="background_color">#ede7d1</color>
+    <color name="background_color">#eeeeee</color>
     <color name="thick_background_color">#DDD0A3</color>
     <color name="button_background_color">#ffffff</color>
     <color name="button_stroke_color">#cac7c0</color>
     <color name="white_color">#FFFFFF</color>
-    
-     <!-- Report listing screen -->
+
+    <!-- Report listing screen -->
     <color name="filter_by_text_color">#7C2811</color>
-    <color name="filter_by_background_color">#e6ddbe</color> <!-- Report listing screen -->
-    
+    <color name="filter_by_background_color">#e6ddbe</color>
+    <!-- Report listing screen -->
+
     <color name="verified_color">#25991C</color>
     <color name="black_color">#000000</color>
     <color name="gray_color">#736F6E</color>
@@ -55,21 +56,21 @@
     <color name="background2">#ffd5ddeb</color>
     <color name="background3">#ffe3e8f1</color>
     <color name="list_view_date">#90544a</color>
-    <color name="table_background">#f6f6ee</color>
-    <color name="table_odd_row_color">#f2eddc</color>
-    <color name="table_even_row_color">#efdbad</color>
+    <color name="table_background">#eeeeee</color>
+    <color name="table_odd_row_color">#ffb2d1dd</color>
+    <color name="table_even_row_color">#ff3383dd</color>
     <color name="table_selected_row_color">#e6ddbe</color>
     <color name="table_header_color">#e6ddbe</color>
     <color name="verified_text_color">#99CC99</color>
     <color name="unverified_text_color">#CC6666</color>
     <color name="tab_background">#1a1a1a</color>
-    <color name="tab_selected_color">#8A1F03</color>
+    <color name="tab_selected_color">#ff3383dd</color>
     <color name="tab_unselected_color">#404041</color>
     <color name="list_divider_color">#e0e0e0</color>
     <color name="overlay_text_color">#aa000000</color>
-    <color name="selectable_color">#7C2811</color>
+    <color name="selectable_color">#ff3383dd</color>
     <color name="text_value_color">#000000</color>
-    
+
     <color name="tab_medium">#2B2B2B</color>
     <color name="tab_dark">#000000</color>
     <color name="tab_transparent">#10ffffff</color>
@@ -84,13 +85,15 @@
     <dimen name="actionbar_height">45dip</dimen>
     <dimen name="actionbar_button_height">30dip</dimen>
     <dimen name="bottom_actionbar_height">65dip</dimen>
-    
+
 
     <!-- DEPLOYMENT TEXT -->
-    <string name="about_text">Ushahidi is a non-profit tech company that develops
-		free and open source software for information collection,
-		visualization and interactive mapping. We built the Ushahidi platform
-		as a tool to easily crowdsource information using multiple channels,
-		including SMS, email, Twitter and the web.</string>
+    <string name="about_text">Mapping the Mangroves is a project focused on tracking/mapping the biodiversity of coastal
+        ecosystems and raising public awareness about this vital habitat. The project aims to connect and mobilize a
+        global network of proactive, environmentally-engaged citizens who collect and disseminate information about the
+        world\'s mangroves. The project\'s ultimate goal will be to provide students, educators and scientists around the
+        world with a freely available collection of online materials dedicated to preserving our world\'s mangroves.
+    </string>
+
 
 </resources>

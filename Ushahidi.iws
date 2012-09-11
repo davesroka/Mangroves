@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidDexCompilerConfiguration">
+    <option name="MAX_HEAP_SIZE" value="800" />
+  </component>
   <component name="AndroidLayoutPreviewToolWindow">
     <option name="state">
       <GlobalState>
@@ -15,17 +18,18 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="WARN" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c8d0104-53bd-4fe8-a143-c930808a7fbb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/cwacmerge/Cwacmerge.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/Core.iml" afterPath="$PROJECT_DIR$/Core/Core.iml" />
+    <list default="true" id="3c8d0104-53bd-4fe8-a143-c930808a7fbb" name="Default" comment="Added our debug Google Maps Api key, changed app name displayed, updated colors and About text, added custom graphic resources">
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Mangroves\res\drawable-hdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Mangroves\res\drawable-mdpi\ic_launcher.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/res/drawable-hdpi/icon.png" afterPath="$PROJECT_DIR$/Themes/Mangroves/res/drawable-hdpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/res/drawable-ldpi/icon.png" afterPath="$PROJECT_DIR$/Themes/Mangroves/res/drawable-ldpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/res/drawable-mdpi/icon.png" afterPath="$PROJECT_DIR$/Themes/Mangroves/res/drawable-mdpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/res/drawable/splash.png" afterPath="$PROJECT_DIR$/Themes/Mangroves/res/drawable/splash.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/res/layout/add_report.xml" afterPath="$PROJECT_DIR$/Core/res/layout/add_report.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/res/values/strings.xml" afterPath="$PROJECT_DIR$/Core/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/res/values/theme.xml" afterPath="$PROJECT_DIR$/Core/res/values/theme.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/src/com/ushahidi/android/app/adapters/BaseSectionListAdapter.java" afterPath="$PROJECT_DIR$/Core/src/com/ushahidi/android/app/adapters/BaseSectionListAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/ActionMenuItem.java" afterPath="$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/ActionMenuItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/MenuItemImpl.java" afterPath="$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/MenuItemImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/MenuItemWrapper.java" afterPath="$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/MenuItemWrapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Libraries/cwacmerge/project.properties" afterPath="$PROJECT_DIR$/Libraries/cwacmerge/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ushahidi.ipr" afterPath="$PROJECT_DIR$/Ushahidi.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Themes/Mangroves/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml" afterPath="$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ushahidi.iws" afterPath="$PROJECT_DIR$/Ushahidi.iws" />
     </list>
     <ignored path="Ushahidi.iws" />
@@ -84,19 +88,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="theme.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Core/res/values/theme.xml">
+      <file leaf-file-name="theme.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="81" selection-start="3706" selection-end="3706" vertical-scroll-proportion="0.7664122">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ushahidi-android.po" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Core/po/ushahidi-android.po">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="7" selection-start="2166" selection-end="2166" vertical-scroll-proportion="0.0">
+            <state line="81" column="23" selection-start="3908" selection-end="3909" vertical-scroll-proportion="-12.24">
               <folding />
             </state>
           </provider>
@@ -105,43 +100,25 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Core/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="230" column="29" selection-start="12074" selection-end="12074" vertical-scroll-proportion="0.0">
+            <state line="147" column="0" selection-start="8159" selection-end="8159" vertical-scroll-proportion="-9.346154">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_checkin.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Core/res/layout/add_checkin.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="38" selection-start="2508" selection-end="2508" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Themes/Mangroves/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="65" selection-start="345" selection-end="347" vertical-scroll-proportion="-3.2307692">
+            <state line="390" column="27" selection-start="15993" selection-end="15993" vertical-scroll-proportion="0.58746207">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theme.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml">
+      <file leaf-file-name="add_report.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Core/res/layout/add_report.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Core/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="179" column="48" selection-start="6223" selection-end="6223" vertical-scroll-proportion="-11.307693">
               <folding />
             </state>
           </provider>
@@ -160,22 +137,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/CoreV3/src/com/ushahidi/android/app/views/ExampleListView.java" />
-        <option value="$PROJECT_DIR$/CoreV3/src/com/ushahidi/android/app/views/ExampleView.java" />
-        <option value="$PROJECT_DIR$/CoreV3/src/com/ushahidi/android/app/adapters/BaseArrayAdapter.java" />
         <option value="$PROJECT_DIR$/CoreV3/src/com/ushahidi/android/app/utils/Strings.java" />
         <option value="$PROJECT_DIR$/Ushahidi.ipr" />
         <option value="$PROJECT_DIR$/Themes/Beijing/Beijing.iml" />
         <option value="$PROJECT_DIR$/Themes/Ushahidi/Ushahidi.iml" />
         <option value="$PROJECT_DIR$/Themes/Inherity/Inherity.iml" />
-        <option value="$PROJECT_DIR$/Core/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/Core/res/values-mk/strings.xml" />
         <option value="$PROJECT_DIR$/Themes/Beijing/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/MenuItemWrapper.java" />
         <option value="$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/ActionMenuItem.java" />
         <option value="$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/MenuItemImpl.java" />
         <option value="$PROJECT_DIR$/Core/src/com/ushahidi/android/app/adapters/BaseSectionListAdapter.java" />
+        <option value="$PROJECT_DIR$/Themes/Mangroves/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml" />
         <option value="$PROJECT_DIR$/Core/res/values/theme.xml" />
+        <option value="$PROJECT_DIR$/Core/res/layout/add_report.xml" />
+        <option value="$PROJECT_DIR$/Core/res/values/strings.xml" />
       </list>
     </option>
   </component>
@@ -215,26 +192,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ushahidi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -259,38 +216,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Mangroves" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ushahidi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mangroves" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ushahidi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -329,17 +254,37 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ushahidi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="android.dex.compiler" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="8909f84d" />
@@ -537,6 +482,8 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <list size="4">
@@ -575,6 +522,11 @@
       <created>1346792234385</created>
       <updated>1346792234385</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added custom debug keystore for testing Maps Api key">
+      <created>1347381829799</created>
+      <updated>1347381829799</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -606,20 +558,20 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977018" sideWeight="0.6712598" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874015" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="783" y="44" width="797" height="1130" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874015" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="783" y="44" width="797" height="1130" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40814394" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="2507" y="22" width="981" height="1130" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40748033" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="2507" y="22" width="981" height="1130" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16889364" sideWeight="0.6712598" order="0" side_tool="false" content_ui="combo" x="1440" y="22" width="267" height="1130" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3257874" sideWeight="0.49717513" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1293426" sideWeight="0.5925197" order="0" side_tool="false" content_ui="combo" x="1440" y="22" width="267" height="1130" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32480314" sideWeight="0.49717513" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -665,7 +617,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added our debug Google Maps Api key, changed app name displayed, updated colors and About text, added custom graphic resources" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -678,6 +630,8 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Added custom debug keystore for testing Maps Api key" />
+    <MESSAGE value="Added our debug Google Maps Api key, changed app name displayed, updated colors and About text, added custom graphic resources" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -706,20 +660,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/MenuItemWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="6" selection-start="5849" selection-end="5940" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Core/src/com/ushahidi/android/app/adapters/BaseSectionListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="43" selection-start="3892" selection-end="3892" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Core/BUILDING.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -737,9 +677,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Themes/Ushahidi/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="391" column="92" selection-start="16055" selection-end="16055" vertical-scroll-proportion="0.6050605">
-          <folding />
-        </state>
+        <state line="391" column="92" selection-start="16055" selection-end="16055" vertical-scroll-proportion="0.6050605" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Core/src/com/ushahidi/android/app/ui/tablet/DashboardActivity.java">
@@ -754,56 +692,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Themes/Ushahidi/res/values/theme.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="128" selection-start="2675" selection-end="2675" vertical-scroll-proportion="0.1210121">
-          <folding />
-        </state>
+        <state line="54" column="128" selection-start="2675" selection-end="2675" vertical-scroll-proportion="0.1210121" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Core/po/ushahidi-android.po">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="7" selection-start="2166" selection-end="2166" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="113" column="7" selection-start="2166" selection-end="2166" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Core/res/layout/add_checkin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="38" selection-start="2508" selection-end="2508" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="66" column="38" selection-start="2508" selection-end="2508" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Mangroves/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="65" selection-start="345" selection-end="347" vertical-scroll-proportion="-3.2307692">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Core/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/Themes/Mangroves/local.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Core/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/Core/res/layout/add_report.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="230" column="29" selection-start="12074" selection-end="12074" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="179" column="48" selection-start="6223" selection-end="6223" vertical-scroll-proportion="-11.307693">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Core/res/values/theme.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="81" selection-start="3706" selection-end="3706" vertical-scroll-proportion="0.7664122">
+        <state line="96" column="69" selection-start="3817" selection-end="3817" vertical-scroll-proportion="1.3541985">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="23" selection-start="3908" selection-end="3909" vertical-scroll-proportion="-12.24">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="0" selection-start="8159" selection-end="8159" vertical-scroll-proportion="-9.346154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Mangroves/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="390" column="27" selection-start="15993" selection-end="15993" vertical-scroll-proportion="0.58746207">
           <folding />
         </state>
       </provider>
@@ -825,7 +769,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Android (Core)|Android</last-edited>
+          <last-edited>Android (Mangroves)|Android</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -860,7 +804,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Core</last-edited>
+          <last-edited>Mangroves</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
