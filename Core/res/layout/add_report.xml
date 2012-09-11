@@ -174,6 +174,11 @@
                 style="@style/Button.Select"
                 android:text="@string/add_photo" />
 
+            <Button
+                    android:id="@+id/btnVidoe"
+                    style="@style/Button.Select"
+                    android:text="@string/add_video" />
+
             <LinearLayout
                 style="@style/LinearLayout.Horizontal"
                 android:paddingBottom="10dp"

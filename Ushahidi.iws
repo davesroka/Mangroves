@@ -18,18 +18,10 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="WARN" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c8d0104-53bd-4fe8-a143-c930808a7fbb" name="Default" comment="Added our debug Google Maps Api key, changed app name displayed, updated colors and About text, added custom graphic resources">
-      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Mangroves\res\drawable-hdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Mangroves\res\drawable-mdpi\ic_launcher.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/res/drawable-hdpi/icon.png" afterPath="$PROJECT_DIR$/Themes/Mangroves/res/drawable-hdpi/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/res/drawable-ldpi/icon.png" afterPath="$PROJECT_DIR$/Themes/Mangroves/res/drawable-ldpi/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/res/drawable-mdpi/icon.png" afterPath="$PROJECT_DIR$/Themes/Mangroves/res/drawable-mdpi/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/res/drawable/splash.png" afterPath="$PROJECT_DIR$/Themes/Mangroves/res/drawable/splash.png" />
+    <list default="true" id="3c8d0104-53bd-4fe8-a143-c930808a7fbb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/res/layout/add_report.xml" afterPath="$PROJECT_DIR$/Core/res/layout/add_report.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/res/values/strings.xml" afterPath="$PROJECT_DIR$/Core/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/res/values/theme.xml" afterPath="$PROJECT_DIR$/Core/res/values/theme.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Themes/Mangroves/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml" afterPath="$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ushahidi.iws" afterPath="$PROJECT_DIR$/Ushahidi.iws" />
     </list>
     <ignored path="Ushahidi.iws" />
@@ -526,7 +518,11 @@
       <created>1347381829799</created>
       <updated>1347381829799</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added our debug Google Maps Api key, changed app name displayed, updated colors and About text, added custom graphic resources">
+      <created>1347381994814</created>
+      <updated>1347381994814</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
