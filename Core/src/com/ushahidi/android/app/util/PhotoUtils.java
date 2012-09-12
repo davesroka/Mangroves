@@ -355,4 +355,7 @@ public class PhotoUtils {
 		return inSampleSize;
 	}
 
+
+
+
 }

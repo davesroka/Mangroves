@@ -173,9 +173,12 @@
                 android:id="@+id/btnPicture"
                 style="@style/Button.Select"
                 android:text="@string/add_photo" />
+            <TextView
+                    style="@style/TextView.Label"
+                    android:text="@string/videos" />
 
             <Button
-                    android:id="@+id/btnVidoe"
+                    android:id="@+id/btnVideo"
                     style="@style/Button.Select"
                     android:text="@string/add_video" />
 
