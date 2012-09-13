@@ -18,11 +18,7 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c8d0104-53bd-4fe8-a143-c930808a7fbb" name="Default" comment="Added &quot;add video&quot; button, non-functional.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/Core.iml" afterPath="$PROJECT_DIR$/Core/Core.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/res/layout/add_report.xml" afterPath="$PROJECT_DIR$/Core/res/layout/add_report.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/src/com/ushahidi/android/app/ui/phone/AddReportActivity.java" afterPath="$PROJECT_DIR$/Core/src/com/ushahidi/android/app/ui/phone/AddReportActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/src/com/ushahidi/android/app/util/PhotoUtils.java" afterPath="$PROJECT_DIR$/Core/src/com/ushahidi/android/app/util/PhotoUtils.java" />
+    <list default="true" id="3c8d0104-53bd-4fe8-a143-c930808a7fbb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ushahidi.iws" afterPath="$PROJECT_DIR$/Ushahidi.iws" />
     </list>
     <ignored path="Ushahidi.iws" />
@@ -120,7 +116,7 @@
       <file leaf-file-name="AddReportActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Core/src/com/ushahidi/android/app/ui/phone/AddReportActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="280" column="50" selection-start="7921" selection-end="7921" vertical-scroll-proportion="0.7485265">
+            <state line="280" column="50" selection-start="7921" selection-end="7921" vertical-scroll-proportion="0.69147">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -226,9 +222,7 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1920" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -585,7 +579,11 @@
       <created>1347382035850</created>
       <updated>1347382035850</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Code added for add video button functionality">
+      <created>1347473132391</created>
+      <updated>1347473132391</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -609,15 +607,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32687926" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32589287" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977018" sideWeight="0.6712598" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37276787" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="783" y="44" width="797" height="1130" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37276787" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="783" y="44" width="797" height="1130" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -629,7 +627,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12773918" sideWeight="0.62723213" order="0" side_tool="false" content_ui="combo" x="1440" y="22" width="267" height="1130" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12884097" sideWeight="0.67410713" order="0" side_tool="false" content_ui="combo" x="1440" y="22" width="267" height="1130" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32480314" sideWeight="0.49717513" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -676,7 +674,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;add video&quot; button, non-functional." />
+    <option name="LAST_COMMIT_MESSAGE" value="Code added for add video button functionality" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -692,6 +690,7 @@
     <MESSAGE value="Added custom debug keystore for testing Maps Api key" />
     <MESSAGE value="Added our debug Google Maps Api key, changed app name displayed, updated colors and About text, added custom graphic resources" />
     <MESSAGE value="Added &quot;add video&quot; button, non-functional." />
+    <MESSAGE value="Code added for add video button functionality" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -809,7 +808,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Core/src/com/ushahidi/android/app/ui/phone/AddReportActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="280" column="50" selection-start="7921" selection-end="7921" vertical-scroll-proportion="0.7485265">
+        <state line="280" column="50" selection-start="7921" selection-end="7921" vertical-scroll-proportion="0.69147">
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
