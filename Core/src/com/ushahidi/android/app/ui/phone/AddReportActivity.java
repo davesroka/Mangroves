@@ -152,6 +152,7 @@ public class AddReportActivity extends
 		view.mLongitude.addTextChangedListener(latLonTextWatcher);
 		mapController = view.mapView.getController();
 		view.mBtnPicture.setOnClickListener(this);
+		view.mBtnVideo.setOnClickListener(this);
 		view.mBtnAddCategory.setOnClickListener(this);
 		view.mPickDate.setOnClickListener(this);
 		view.mPickTime.setOnClickListener(this);
