@@ -19,15 +19,131 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c8d0104-53bd-4fe8-a143-c930808a7fbb" name="Default" comment="Set">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/libs/FlurryAgent.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/libs/crittercism_v3_0_2_crashonly.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/res/drawable/logo.png" afterPath="$PROJECT_DIR$/Themes/Mangroves/res/drawable/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/res/drawable/splash.png" afterPath="$PROJECT_DIR$/Themes/Mangroves/res/drawable/splash.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/Core.iml" afterPath="$PROJECT_DIR$/Core/Core.iml" />
+    <list default="true" id="3c8d0104-53bd-4fe8-a143-c930808a7fbb" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\.classpath" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\.project" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\BUILDING.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\Beijing.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\ant.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\local.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\proguard.cfg" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\project.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\res\drawable-hdpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\res\drawable-ldpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\res\drawable-mdpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\res\drawable\about.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\res\drawable\actionbar.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\res\drawable\dashboard.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\res\drawable\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\res\drawable\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\res\drawable\notification.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\res\drawable\report.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\res\drawable\splash.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\res\drawable\title.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Beijing\res\values\theme.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Iccm\.classpath" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Iccm\.project" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Iccm\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Iccm\BUILDING.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Iccm\Iccm.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Iccm\ant.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Iccm\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Iccm\local.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Iccm\proguard.cfg" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Iccm\project.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Iccm\res\drawable-hdpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Iccm\res\drawable-ldpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Iccm\res\drawable-mdpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Iccm\res\drawable\about.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Iccm\res\drawable\actionbar.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Iccm\res\drawable\dashboard.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Iccm\res\drawable\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Iccm\res\drawable\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Iccm\res\drawable\notification.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Iccm\res\drawable\report.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Iccm\res\drawable\splash.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Iccm\res\values\theme.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Inherity\.classpath" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Inherity\.project" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Inherity\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Inherity\BUILDING.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Inherity\Inherity.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Inherity\ant.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Inherity\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Inherity\local.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Inherity\proguard.cfg" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Inherity\project.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Inherity\res\drawable-hdpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Inherity\res\drawable-ldpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Inherity\res\drawable-mdpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Inherity\res\drawable\about.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Inherity\res\drawable\actionbar.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Inherity\res\drawable\dashboard.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Inherity\res\drawable\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Inherity\res\drawable\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Inherity\res\drawable\notification.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Inherity\res\drawable\report.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Inherity\res\drawable\splash.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Inherity\res\values\theme.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\.classpath" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\.project" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\BUILDING.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\Ushahidi.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\ant.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\libs\README.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\lint.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\local.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\proguard.cfg" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\project.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\res\drawable-hdpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\res\drawable-ldpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\res\drawable-mdpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\res\drawable\about.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\res\drawable\actionbar.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\res\drawable\dashboard.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\res\drawable\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\res\drawable\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\res\drawable\notification.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\res\drawable\report.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\res\drawable\splash.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\res\drawable\title.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\res\values\theme.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\secure.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\OffTheBus\ushahidi-key.keystore" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\.classpath" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\.project" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\BUILDING.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\Ushahidi.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\ant.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\libs\README.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\lint.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\local.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\proguard.cfg" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\project.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\res\drawable-hdpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\res\drawable-ldpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\res\drawable-mdpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\res\drawable\about.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\res\drawable\actionbar.9.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\res\drawable\dashboard.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\res\drawable\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\res\drawable\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\res\drawable\notification.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\res\drawable\report.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\res\drawable\splash.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\res\drawable\title.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\res\values\theme.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\secure.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Themes\Ushahidi\ushahidi-key.keystore" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/ReportTabActivity.java" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/ReportTabActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Themes/Mangroves/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/Mangroves.iml" afterPath="$PROJECT_DIR$/Themes/Mangroves/Mangroves.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml" afterPath="$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ushahidi.ipr" afterPath="$PROJECT_DIR$/Ushahidi.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ushahidi.iws" afterPath="$PROJECT_DIR$/Ushahidi.iws" />
     </list>
     <ignored path="Ushahidi.iws" />
@@ -98,7 +214,34 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Themes/Mangroves/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="246" column="50" selection-start="10149" selection-end="10149" vertical-scroll-proportion="-24.346153">
+            <state line="25" column="39" selection-start="1495" selection-end="1495" vertical-scroll-proportion="-13.884615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Themes/Mangroves/build.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="108" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Core/res/values/theme.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="54" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="54" selection-start="2265" selection-end="2265" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,25 +250,16 @@
       <file leaf-file-name="ReportTabActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/ReportTabActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="102" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0">
+            <state line="62" column="57" selection-start="2225" selection-end="2225" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddReportActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/AddReportActivity.java">
+      <file leaf-file-name="Preferences.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/Preferences.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="204" column="49" selection-start="6321" selection-end="6321" vertical-scroll-proportion="0.62254393">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/activities/BaseActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="23" selection-start="2745" selection-end="2745" vertical-scroll-proportion="0.0">
+            <state line="103" column="79" selection-start="2967" selection-end="2967" vertical-scroll-proportion="1.132918">
               <folding />
             </state>
           </provider>
@@ -135,42 +269,6 @@
         <entry file="file://$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/activities/SplashScreenActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="199" column="0" selection-start="5577" selection-end="5577" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseViewActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/activities/BaseViewActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="22" selection-start="987" selection-end="987" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseListActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/activities/BaseListActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="22" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseEditMapActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/activities/BaseEditMapActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="22" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseEditActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/activities/BaseEditActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="22" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -189,7 +287,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Core/res/values/theme.xml" />
         <option value="$PROJECT_DIR$/Core/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/Core/src/com/ushahidi/android/app/util/PhotoUtils.java" />
         <option value="$PROJECT_DIR$/Core/res/layout/add_report.xml" />
@@ -199,12 +296,13 @@
         <option value="$PROJECT_DIR$/Core/gen/com/ushahidi/android/app/Manifest.java" />
         <option value="$PROJECT_DIR$/Core/gen/com/ushahidi/android/app/R.java" />
         <option value="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/MainApplication.java" />
-        <option value="$PROJECT_DIR$/Themes/Mangroves/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/activities/BaseActivity.java" />
         <option value="$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml" />
         <option value="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/activities/SplashScreenActivity.java" />
-        <option value="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/ReportTabActivity.java" />
         <option value="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/AddReportActivity.java" />
+        <option value="$PROJECT_DIR$/Themes/Mangroves/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/Themes/Ushahidi/res/values/theme.xml" />
+        <option value="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/ReportTabActivity.java" />
       </list>
     </option>
   </component>
@@ -253,130 +351,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Ushahidi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ushahidi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mangroves" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ushahidi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mangroves" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ushahidi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ushahidi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mangroves" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ushahidi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mangroves" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ushahidi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mangroves" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ushahidi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ushahidi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="abs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -675,7 +649,11 @@
       <created>1347987794932</created>
       <updated>1347987794932</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added Flurry and Crittercism, updated icons, splash screen, and logo for about page">
+      <created>1347987835444</created>
+      <updated>1347987835444</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -705,7 +683,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32687926" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37204725" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="783" y="44" width="797" height="1130" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3996063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -716,14 +694,14 @@
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874015" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977018" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977018" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2143239" sideWeight="0.63188976" order="0" side_tool="false" content_ui="combo" x="1440" y="22" width="267" height="1130" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36811024" sideWeight="0.49717513" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.3292357" sideWeight="0.6712598" order="3" side_tool="false" content_ui="tabs" x="1970" y="20" width="616" height="1016" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.3292357" sideWeight="0.6712598" order="6" side_tool="false" content_ui="tabs" x="1970" y="20" width="616" height="1016" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.52875" sideWeight="0.49717513" order="9" side_tool="false" content_ui="tabs" x="1708" y="22" width="1017" height="1130" />
@@ -766,7 +744,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added flurry logging to add report page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Flurry and Crittercism, updated icons, splash screen, and logo for about page" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -785,6 +763,7 @@
     <MESSAGE value="Changed package name to com.robotfactorial.mangroves, renamed all references" />
     <MESSAGE value="Removed setting setDisplayHomeAsUpEnabled(true) to fix bug where you could back up to splash screen." />
     <MESSAGE value="Added flurry logging to add report page." />
+    <MESSAGE value="Added Flurry and Crittercism, updated icons, splash screen, and logo for about page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -813,27 +792,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/MapMarker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/Preferences.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/Settings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="13" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/MainApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="7" selection-start="1678" selection-end="1678" vertical-scroll-proportion="0.0">
@@ -846,13 +804,6 @@
     <entry file="file://$PROJECT_DIR$/Themes/Mangroves/libs/README.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="3108" selection-end="3108" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -892,13 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/activities/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="23" selection-start="2745" selection-end="2745" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/activities/SplashScreenActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="199" column="0" selection-start="5577" selection-end="5577" vertical-scroll-proportion="0.0">
@@ -906,23 +850,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="54" selection-start="2265" selection-end="2265" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/res/values/theme.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="54" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Themes/Mangroves/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="246" column="50" selection-start="10149" selection-end="10149" vertical-scroll-proportion="-24.346153">
+        <state line="25" column="39" selection-start="1495" selection-end="1495" vertical-scroll-proportion="-13.884615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Mangroves/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="108" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/ReportTabActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="102" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0">
+        <state line="62" column="57" selection-start="2225" selection-end="2225" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/AddReportActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="49" selection-start="6321" selection-end="6321" vertical-scroll-proportion="0.62254393">
+        <state line="204" column="49" selection-start="6321" selection-end="6321" vertical-scroll-proportion="-0.6663296">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/activities/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="23" selection-start="2745" selection-end="2745" vertical-scroll-proportion="0.04853387">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/Preferences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="79" selection-start="2967" selection-end="2967" vertical-scroll-proportion="1.132918">
           <folding />
         </state>
       </provider>

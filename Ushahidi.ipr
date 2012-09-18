@@ -199,11 +199,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Libraries/abs/Abs.iml" filepath="$PROJECT_DIR$/Libraries/abs/Abs.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Themes/Beijing/Beijing.iml" filepath="$PROJECT_DIR$/Themes/Beijing/Beijing.iml" />
       <module fileurl="file://$PROJECT_DIR$/Core/Core.iml" filepath="$PROJECT_DIR$/Core/Core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Themes/Inherity/Inherity.iml" filepath="$PROJECT_DIR$/Themes/Inherity/Inherity.iml" />
       <module fileurl="file://$PROJECT_DIR$/Themes/Mangroves/Mangroves.iml" filepath="$PROJECT_DIR$/Themes/Mangroves/Mangroves.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Themes/Ushahidi/Ushahidi.iml" filepath="$PROJECT_DIR$/Themes/Ushahidi/Ushahidi.iml" />
     </modules>
   </component>
   <component name="ProjectResources">

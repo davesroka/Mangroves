@@ -55,11 +55,12 @@ public class ReportTabActivity extends FragmentMapActivity {
     
     public void setTitle() {
 		Preferences.loadSettings(this);
-		if ((Preferences.activeMapName != null)
-				&& (!TextUtils.isEmpty(Preferences.activeMapName))) {
-
-			getSupportActionBar().setTitle(Preferences.activeMapName);
-		}
+//		if ((Preferences.activeMapName != null)
+//				&& (!TextUtils.isEmpty(Preferences.activeMapName))) {
+//
+//			getSupportActionBar().setTitle(Preferences.activeMapName);
+//		}
+		getSupportActionBar().setTitle(R.string.app_title);
 	}
 
     @Override
