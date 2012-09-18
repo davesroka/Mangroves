@@ -9,11 +9,11 @@
     <string name="facebook_url">http://www.facebook.com/ushahidi</string>
     <string name="contact_url">http://ushahidi.com/contact-us</string>
 
-    <!-- DEPLOYMENT PROVIDER AUTHORITIES. USUALLY PACKAGE NAME AND CLASS NAME Eg. com.ushahidi.android.app.data.deploymentprovider -->
-    <string name="provider_authorities">com.ushahidi.android.app.data.deploymentprovider</string>
+    <!-- DEPLOYMENT PROVIDER AUTHORITIES. USUALLY PACKAGE NAME AND CLASS NAME Eg. com.robotfactorial.mangroves.data.deploymentprovider -->
+    <string name="provider_authorities">com.robotfactorial.mangroves.data.deploymentprovider</string>
 
     <!-- NAMESPACE  -->
-    <string name="rounded_corner">http://schemas.android.com/apk/res/com.ushahidi.android.app</string>
+    <string name="rounded_corner">http://schemas.android.com/apk/res/com.robotfactorial.mangroves</string>
     <!-- ICON IMAGES -->
     <drawable name="app_icon">@drawable/icon</drawable>
     <drawable name="logo_icon">@drawable/logo</drawable>
@@ -57,18 +57,18 @@
     <color name="background3">#ffe3e8f1</color>
     <color name="list_view_date">#90544a</color>
     <color name="table_background">#eeeeee</color>
-    <color name="table_odd_row_color">#ffb2d1dd</color>
-    <color name="table_even_row_color">#ff3383dd</color>
+    <color name="table_odd_row_color">#ffc8e1ff</color>
+    <color name="table_even_row_color">#ff87b0d9</color>
     <color name="table_selected_row_color">#e6ddbe</color>
     <color name="table_header_color">#e6ddbe</color>
     <color name="verified_text_color">#99CC99</color>
     <color name="unverified_text_color">#CC6666</color>
     <color name="tab_background">#1a1a1a</color>
-    <color name="tab_selected_color">#ff3383dd</color>
+    <color name="tab_selected_color">#ff87b0d9</color>
     <color name="tab_unselected_color">#404041</color>
     <color name="list_divider_color">#e0e0e0</color>
     <color name="overlay_text_color">#aa000000</color>
-    <color name="selectable_color">#ff3383dd</color>
+    <color name="selectable_color">#ff87b0d9</color>
     <color name="text_value_color">#000000</color>
 
     <color name="tab_medium">#2B2B2B</color>

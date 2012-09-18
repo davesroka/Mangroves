@@ -11,6 +11,7 @@
         <option name="nightMode" value="notnight" />
         <option name="targetHashString" value="android-10" />
         <option name="theme" value="Theme" />
+        <option name="visible" value="false" />
       </GlobalState>
     </option>
   </component>
@@ -18,7 +19,415 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c8d0104-53bd-4fe8-a143-c930808a7fbb" name="Default" comment="">
+    <list default="true" id="3c8d0104-53bd-4fe8-a143-c930808a7fbb" name="Default" comment="Added &quot;add video&quot; button, non-functional.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/CheckinMapItemizedOverlay.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/CheckinMapOverlayItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/FastBitmapDrawable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ImageManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/MainApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/MapItemizedOverlay.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/MapMarker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/MapUserLocation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/Preferences.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ReportMapItemizedOverlay.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ReportMapOverlayItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/Settings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/activities/BaseActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/activities/BaseEditActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/activities/BaseEditMapActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/activities/BaseListActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/activities/BaseMapActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/activities/BaseMapViewActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/activities/BaseViewActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/activities/SplashScreenActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/adapters/BaseArrayAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/adapters/BaseListAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/adapters/BaseSectionListAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/adapters/CategorySpinnerAdater.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/adapters/CommentAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/adapters/ListCheckinAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/adapters/ListCommentAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/adapters/ListFetchedCheckinAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/adapters/ListFetchedReportAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/adapters/ListMapAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/adapters/ListMapTabletAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/adapters/ListNewsAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/adapters/ListPendingCheckinAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/adapters/ListPendingReportAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/adapters/ListPhotoAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/adapters/ListReportAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/adapters/ListVideoAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/adapters/UploadPhotoAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/adapters/UserSpinnerAdater.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/CategoryDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/CheckinDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/CommentDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/Database.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/DbContentProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/DbSqliteHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/ICategoryDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/ICategorySchema.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/ICheckinDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/ICheckinSchema.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/ICommentDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/ICommentSchema.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/IMapDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/IMapSchema.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/IMediaDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/IMediaSchema.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/IOfflineReportDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/IOfflineReportSchema.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/IReportCategoryDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/IReportCategorySchema.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/IReportDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/IReportSchema.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/IUserDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/IUserSchema.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/MapDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/MediaDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/OfflineReportDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/ReportCategoryDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/ReportDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/database/UserDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/entities/Category.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/entities/Checkin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/entities/Comment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/entities/IDbEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/entities/Map.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/entities/Media.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/entities/OfflineReport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/entities/Photo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/entities/Report.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/entities/ReportCategory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/entities/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/fragments/BaseFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/fragments/BaseListFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/fragments/BaseSectionListFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/helpers/ActionModeHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/helpers/LocalActivityManagerFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/helpers/ReportViewPager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/helpers/RoundedCornerImageView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/helpers/TabManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/helpers/TabsAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/models/AddCheckinModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/models/AddReportModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/models/ListCheckinModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/models/ListCommentModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/models/ListMapModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/models/ListPhotoModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/models/ListReportModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/models/ListReportNewsModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/models/ListReportVideoModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/models/Model.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/models/UserModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/models/ViewCheckinModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/models/ViewReportModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/net/CategoriesHttpClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/net/CheckinHttpClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/net/CommentHttpClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/net/EasySSLSocketFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/net/EasyX509TrustManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/net/MainGeocoder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/net/MainHttpClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/net/MapsHttpClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/net/ReportsHttpClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/net/TrustManagerFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/net/TrustedSocketFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/opengeosms/OpenGeoSMSSender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/services/ConnectivityChangedReceiver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/services/FetchCheckins.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/services/FetchCheckinsComments.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/services/FetchReports.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/services/FetchReportsComments.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/services/SyncServices.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/services/UploadCheckins.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/services/UploadComments.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/tasks/GeocoderTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/tasks/ProgressCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/tasks/ProgressQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/tasks/ProgressTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/tasks/Task.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/PullToRefreshListView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/SeekBarPreference.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/AboutActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/AddCheckinActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/AddCommentActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/AddReportActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/CheckinMapActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/CheckinTabActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/ListCheckinCommentActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/ListMapActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/ListReportCommentActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/ReportMapActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/ReportTabActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/ViewCheckinActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/ViewReportActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/ViewReportNewsActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/ViewReportPhotoActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/ViewReportVideoActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/tablet/AboutFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/tablet/AddReportFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/tablet/AddReportFragmentActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/tablet/CheckinTabFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/tablet/DashboardActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/tablet/ListAdminReportListFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/tablet/ListCheckinFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/tablet/ListCheckinFragmentActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/tablet/ListMapFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/tablet/ListMapFragmentListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/tablet/ListReportFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/tablet/ListReportFragmentActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/tablet/MapCheckinFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/tablet/MapFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/tablet/ReportTabFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/util/ApiUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/util/CategoriesApiUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/util/CheckinApiUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/util/CommentApiUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/util/DbUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/util/ImageSwitchWorker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/util/ImageViewWorker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/util/Objects.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/util/PhotoUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/util/ReportsApiUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/util/Util.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/views/AboutView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/views/AddCheckinView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/views/AddCommentView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/views/AddMapView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/views/AddReportView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/views/BalloonOverlayView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/views/CheckinMapBallonOverlayView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/views/ListCheckinView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/views/ListCommentView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/views/ListMapView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/views/ListReportView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/views/ReportMapBallonOverlayView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/views/ReportNewsView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/views/ReportPhotoView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/views/ReportVideoView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/views/View.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/views/ViewCheckinView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/views/ViewReportView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/views/Widget.java" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\CheckinMapItemizedOverlay.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\CheckinMapOverlayItem.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\FastBitmapDrawable.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ImageManager.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\MainApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\MapItemizedOverlay.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\MapMarker.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\MapUserLocation.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\Preferences.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ReportMapItemizedOverlay.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ReportMapOverlayItem.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\Settings.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\activities\BaseActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\activities\BaseEditActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\activities\BaseEditMapActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\activities\BaseListActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\activities\BaseMapActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\activities\BaseMapViewActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\activities\BaseViewActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\activities\SplashScreenActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\adapters\BaseArrayAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\adapters\BaseListAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\adapters\BaseSectionListAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\adapters\CategorySpinnerAdater.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\adapters\CommentAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\adapters\ListCheckinAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\adapters\ListCommentAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\adapters\ListFetchedCheckinAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\adapters\ListFetchedReportAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\adapters\ListMapAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\adapters\ListMapTabletAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\adapters\ListNewsAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\adapters\ListPendingCheckinAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\adapters\ListPendingReportAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\adapters\ListPhotoAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\adapters\ListReportAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\adapters\ListVideoAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\adapters\UploadPhotoAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\adapters\UserSpinnerAdater.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\CategoryDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\CheckinDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\CommentDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\Database.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\DbContentProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\DbSqliteHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\ICategoryDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\ICategorySchema.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\ICheckinDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\ICheckinSchema.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\ICommentDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\ICommentSchema.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\IMapDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\IMapSchema.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\IMediaDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\IMediaSchema.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\IOfflineReportDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\IOfflineReportSchema.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\IReportCategoryDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\IReportCategorySchema.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\IReportDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\IReportSchema.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\IUserDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\IUserSchema.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\MapDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\MediaDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\OfflineReportDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\ReportCategoryDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\ReportDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\database\UserDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\entities\Category.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\entities\Checkin.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\entities\Comment.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\entities\IDbEntity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\entities\Map.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\entities\Media.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\entities\OfflineReport.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\entities\Photo.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\entities\Report.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\entities\ReportCategory.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\entities\User.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\fragments\BaseFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\fragments\BaseListFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\fragments\BaseSectionListFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\helpers\ActionModeHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\helpers\LocalActivityManagerFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\helpers\ReportViewPager.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\helpers\RoundedCornerImageView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\helpers\TabManager.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\helpers\TabsAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\models\AddCheckinModel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\models\AddReportModel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\models\ListCheckinModel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\models\ListCommentModel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\models\ListMapModel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\models\ListPhotoModel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\models\ListReportModel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\models\ListReportNewsModel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\models\ListReportVideoModel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\models\Model.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\models\UserModel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\models\ViewCheckinModel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\models\ViewReportModel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\net\CategoriesHttpClient.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\net\CheckinHttpClient.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\net\CommentHttpClient.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\net\EasySSLSocketFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\net\EasyX509TrustManager.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\net\MainGeocoder.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\net\MainHttpClient.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\net\MapsHttpClient.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\net\ReportsHttpClient.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\net\TrustManagerFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\net\TrustedSocketFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\opengeosms\OpenGeoSMSSender.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\services\ConnectivityChangedReceiver.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\services\FetchCheckins.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\services\FetchCheckinsComments.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\services\FetchReports.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\services\FetchReportsComments.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\services\SyncServices.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\services\UploadCheckins.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\services\UploadComments.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\tasks\GeocoderTask.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\tasks\ProgressCallback.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\tasks\ProgressQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\tasks\ProgressTask.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\tasks\Task.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\PullToRefreshListView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\SeekBarPreference.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\phone\AboutActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\phone\AddCheckinActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\phone\AddCommentActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\phone\AddReportActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\phone\CheckinMapActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\phone\CheckinTabActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\phone\ListCheckinCommentActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\phone\ListMapActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\phone\ListReportCommentActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\phone\ReportMapActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\phone\ReportTabActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\phone\ViewCheckinActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\phone\ViewReportActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\phone\ViewReportNewsActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\phone\ViewReportPhotoActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\phone\ViewReportVideoActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\tablet\AboutFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\tablet\AddReportFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\tablet\AddReportFragmentActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\tablet\CheckinTabFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\tablet\DashboardActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\tablet\ListAdminReportListFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\tablet\ListCheckinFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\tablet\ListCheckinFragmentActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\tablet\ListMapFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\tablet\ListMapFragmentListener.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\tablet\ListReportFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\tablet\ListReportFragmentActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\tablet\MapCheckinFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\tablet\MapFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\ui\tablet\ReportTabFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\util\ApiUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\util\CategoriesApiUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\util\CheckinApiUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\util\CommentApiUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\util\DbUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\util\ImageSwitchWorker.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\util\ImageViewWorker.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\util\Objects.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\util\PhotoUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\util\ReportsApiUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\util\Util.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\views\AboutView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\views\AddCheckinView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\views\AddCommentView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\views\AddMapView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\views\AddReportView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\views\BalloonOverlayView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\views\CheckinMapBallonOverlayView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\views\ListCheckinView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\views\ListCommentView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\views\ListMapView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\views\ListReportView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\views\ReportMapBallonOverlayView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\views\ReportNewsView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\views\ReportPhotoView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\views\ReportVideoView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\views\View.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\views\ViewCheckinView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\views\ViewReportView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\Mangroves\Core\src\com\ushahidi\android\app\views\Widget.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Core/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/res/layout-large/add_report_fragment.xml" afterPath="$PROJECT_DIR$/Core/res/layout-large/add_report_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/res/layout-large/checkin_map.xml" afterPath="$PROJECT_DIR$/Core/res/layout-large/checkin_map.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/res/layout-large/dashboard_items.xml" afterPath="$PROJECT_DIR$/Core/res/layout-large/dashboard_items.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/res/layout-large/report_map.xml" afterPath="$PROJECT_DIR$/Core/res/layout-large/report_map.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/res/layout/checkin_map.xml" afterPath="$PROJECT_DIR$/Core/res/layout/checkin_map.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/res/layout/checkin_tab.xml" afterPath="$PROJECT_DIR$/Core/res/layout/checkin_tab.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/res/layout/dashboard_items.xml" afterPath="$PROJECT_DIR$/Core/res/layout/dashboard_items.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/res/layout/list_checkin_tab.xml" afterPath="$PROJECT_DIR$/Core/res/layout/list_checkin_tab.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/res/layout/list_report_tab.xml" afterPath="$PROJECT_DIR$/Core/res/layout/list_report_tab.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/res/layout/report_map.xml" afterPath="$PROJECT_DIR$/Core/res/layout/report_map.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/res/layout/report_tab.xml" afterPath="$PROJECT_DIR$/Core/res/layout/report_tab.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/res/layout/view_report_details.xml" afterPath="$PROJECT_DIR$/Core/res/layout/view_report_details.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/res/values/theme.xml" afterPath="$PROJECT_DIR$/Core/res/values/theme.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/res/xml/preferences.xml" afterPath="$PROJECT_DIR$/Core/res/xml/preferences.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/res/xml/searchable.xml" afterPath="$PROJECT_DIR$/Core/res/xml/searchable.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/tests/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Core/tests/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/tests/src/com/ushahidi/android/app/test/AboutTest.java" afterPath="$PROJECT_DIR$/Core/tests/src/com/ushahidi/android/app/test/AboutTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/tests/src/com/ushahidi/android/app/test/AddIncidentTest.java" afterPath="$PROJECT_DIR$/Core/tests/src/com/ushahidi/android/app/test/AddIncidentTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/tests/src/com/ushahidi/android/app/test/DeploymentSearchTest.java" afterPath="$PROJECT_DIR$/Core/tests/src/com/ushahidi/android/app/test/DeploymentSearchTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Beijing/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Themes/Beijing/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Beijing/res/values/theme.xml" afterPath="$PROJECT_DIR$/Themes/Beijing/res/values/theme.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Inherity/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Themes/Inherity/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Inherity/res/values/theme.xml" afterPath="$PROJECT_DIR$/Themes/Inherity/res/values/theme.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Themes/Mangroves/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml" afterPath="$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Ushahidi/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Themes/Ushahidi/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Ushahidi/res/values/theme.xml" afterPath="$PROJECT_DIR$/Themes/Ushahidi/res/values/theme.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ushahidi.iws" afterPath="$PROJECT_DIR$/Ushahidi.iws" />
     </list>
     <ignored path="Ushahidi.iws" />
@@ -77,10 +486,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="theme.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="theme.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="23" selection-start="3908" selection-end="3909" vertical-scroll-proportion="0.0">
+            <state line="28" column="0" selection-start="1508" selection-end="1550" vertical-scroll-proportion="0.4529828">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Core/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="19" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuildConfig.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Core/gen/com/ushahidi/android/app/BuildConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="8" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Manifest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Core/gen/com/ushahidi/android/app/Manifest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="R.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Core/gen/com/ushahidi/android/app/R.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="8" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,88 +543,16 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Themes/Mangroves/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="390" column="27" selection-start="15993" selection-end="15993" vertical-scroll-proportion="0.0">
+            <state line="390" column="27" selection-start="15997" selection-end="15997" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_report.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Core/res/layout/add_report.xml">
+      <file leaf-file-name="list_report.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Core/res/layout/list_report.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="180" column="44" selection-start="6248" selection-end="6248" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddReportActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Core/src/com/ushahidi/android/app/ui/phone/AddReportActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="280" column="50" selection-start="7921" selection-end="7921" vertical-scroll-proportion="0.69147">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="e#4009#4017#0" expanded="true" />
-                <element signature="e#4072#4080#0" expanded="true" />
-                <element signature="e#4148#4164#0" expanded="true" />
-                <element signature="e#11292#11299#0" expanded="true" />
-                <element signature="e#13467#13604#0" expanded="true" />
-                <element signature="e#13595#13596#0" expanded="true" />
-                <element signature="e#13936#14073#0" expanded="true" />
-                <element signature="e#14064#14065#0" expanded="true" />
-                <element signature="e#14421#14772#0" expanded="true" />
-                <element signature="e#14763#14764#0" expanded="true" />
-                <element signature="e#14831#14968#0" expanded="true" />
-                <element signature="e#14959#14960#0" expanded="true" />
-                <element signature="e#15034#15461#0" expanded="true" />
-                <element signature="e#15452#15453#0" expanded="true" />
-                <element signature="e#15809#16231#0" expanded="true" />
-                <element signature="e#16222#16223#0" expanded="true" />
-                <element signature="e#16290#16427#0" expanded="true" />
-                <element signature="e#16418#16419#0" expanded="true" />
-                <element signature="e#16493#17125#0" expanded="true" />
-                <element signature="e#17116#17117#0" expanded="true" />
-                <element signature="e#17445#18002#0" expanded="true" />
-                <element signature="e#17990#17991#0" expanded="true" />
-                <element signature="e#18052#18254#0" expanded="true" />
-                <element signature="e#18242#18243#0" expanded="true" />
-                <element signature="e#18841#18983#0" expanded="true" />
-                <element signature="e#18974#18975#0" expanded="true" />
-                <element signature="e#19336#19478#0" expanded="true" />
-                <element signature="e#19469#19470#0" expanded="true" />
-                <element signature="e#19886#20024#0" expanded="true" />
-                <element signature="e#20015#20016#0" expanded="true" />
-                <element signature="e#20080#20307#0" expanded="true" />
-                <element signature="e#20298#20299#0" expanded="true" />
-                <element signature="e#20672#20810#0" expanded="true" />
-                <element signature="e#20801#20802#0" expanded="true" />
-                <element signature="e#20866#21052#0" expanded="true" />
-                <element signature="e#21043#21044#0" expanded="true" />
-                <element signature="e#24979#25192#0" expanded="true" />
-                <element signature="e#25188#25189#0" expanded="true" />
-                <element signature="e#25258#25491#0" expanded="true" />
-                <element signature="e#25487#25488#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PhotoUtils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Core/src/com/ushahidi/android/app/util/PhotoUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="195" column="29" selection-start="6127" selection-end="6127" vertical-scroll-proportion="-14.192307">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Core/src/com/ushahidi/android/app/ImageManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="217" column="23" selection-start="6158" selection-end="6158" vertical-scroll-proportion="-8.653846">
+            <state line="24" column="195" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -198,32 +571,37 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Themes/Beijing/Beijing.iml" />
-        <option value="$PROJECT_DIR$/Themes/Ushahidi/Ushahidi.iml" />
-        <option value="$PROJECT_DIR$/Themes/Inherity/Inherity.iml" />
-        <option value="$PROJECT_DIR$/Core/res/values-mk/strings.xml" />
         <option value="$PROJECT_DIR$/Themes/Beijing/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/MenuItemWrapper.java" />
         <option value="$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/ActionMenuItem.java" />
         <option value="$PROJECT_DIR$/Libraries/abs/src/com/actionbarsherlock/internal/view/menu/MenuItemImpl.java" />
         <option value="$PROJECT_DIR$/Core/src/com/ushahidi/android/app/adapters/BaseSectionListAdapter.java" />
         <option value="$PROJECT_DIR$/Themes/Mangroves/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml" />
         <option value="$PROJECT_DIR$/Core/res/values/theme.xml" />
         <option value="$PROJECT_DIR$/Core/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/Core/src/com/ushahidi/android/app/util/PhotoUtils.java" />
         <option value="$PROJECT_DIR$/Core/res/layout/add_report.xml" />
         <option value="$PROJECT_DIR$/Core/src/com/ushahidi/android/app/ui/phone/AddReportActivity.java" />
+        <option value="$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml" />
+        <option value="$PROJECT_DIR$/Core/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/Core/gen/com/ushahidi/android/app/BuildConfig.java" />
+        <option value="$PROJECT_DIR$/Core/gen/com/ushahidi/android/app/Manifest.java" />
+        <option value="$PROJECT_DIR$/Core/gen/com/ushahidi/android/app/R.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ModuleEditorState">
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1056" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -251,42 +629,12 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ushahidi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Ushahidi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ushahidi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mangroves" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -313,8 +661,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="mangroves" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ushahidi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ushahidi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -332,7 +710,7 @@
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="040362601801F010" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="BCOKAS000764" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="AndroidTargetDevices" value="3930EC9FDFD800EC" />
@@ -579,11 +957,7 @@
       <created>1347382035850</created>
       <updated>1347382035850</updated>
     </task>
-    <task id="LOCAL-00004" summary="Code added for add video button functionality">
-      <created>1347473132391</created>
-      <updated>1347473132391</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -607,31 +981,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32589287" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32687926" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977018" sideWeight="0.6712598" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37276787" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="783" y="44" width="797" height="1130" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37204725" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="783" y="44" width="797" height="1130" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40748033" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="2507" y="22" width="981" height="1130" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40649608" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="2507" y="22" width="981" height="1130" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874015" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977018" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12884097" sideWeight="0.67410713" order="0" side_tool="false" content_ui="combo" x="1440" y="22" width="267" height="1130" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32480314" sideWeight="0.49717513" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2143239" sideWeight="0.63188976" order="0" side_tool="false" content_ui="combo" x="1440" y="22" width="267" height="1130" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36811024" sideWeight="0.49717513" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.3292357" sideWeight="0.6712598" order="3" side_tool="false" content_ui="tabs" x="1970" y="20" width="616" height="1016" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.52875" sideWeight="0.49717513" order="9" side_tool="false" content_ui="tabs" x="1708" y="22" width="1017" height="1130" />
@@ -674,7 +1048,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code added for add video button functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;add video&quot; button, non-functional." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -690,7 +1064,6 @@
     <MESSAGE value="Added custom debug keystore for testing Maps Api key" />
     <MESSAGE value="Added our debug Google Maps Api key, changed app name displayed, updated colors and About text, added custom graphic resources" />
     <MESSAGE value="Added &quot;add video&quot; button, non-functional." />
-    <MESSAGE value="Code added for add video button functionality" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -719,16 +1092,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Themes/Ushahidi/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="391" column="92" selection-start="16055" selection-end="16055" vertical-scroll-proportion="0.6050605" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Core/src/com/ushahidi/android/app/ui/tablet/DashboardActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="55" selection-start="879" selection-end="879" vertical-scroll-proportion="0.43014303" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Themes/Ushahidi/BUILDING.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -759,100 +1122,69 @@
         <state line="96" column="69" selection-start="3817" selection-end="3817" vertical-scroll-proportion="1.3541985" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Core/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/Core/res/layout/add_report.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="23" selection-start="3908" selection-end="3909" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="180" column="44" selection-start="6248" selection-end="6248" vertical-scroll-proportion="0.017167382" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Core/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="0" selection-start="8159" selection-end="8159" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="147" column="0" selection-start="8159" selection-end="8159" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Themes/Mangroves/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="390" column="27" selection-start="15993" selection-end="15993" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Core/src/com/ushahidi/android/app/ImageManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="217" column="23" selection-start="6158" selection-end="6158" vertical-scroll-proportion="-8.653846">
+        <state line="390" column="27" selection-start="15997" selection-end="15997" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Core/src/com/ushahidi/android/app/util/PhotoUtils.java">
+    <entry file="file://$PROJECT_DIR$/Core/res/layout/list_report.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="195" column="29" selection-start="6127" selection-end="6127" vertical-scroll-proportion="-14.192307">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="24" column="195" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Core/res/layout/add_report.xml">
+    <entry file="file://$PROJECT_DIR$/Core/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="180" column="44" selection-start="6248" selection-end="6248" vertical-scroll-proportion="0.0">
+        <state line="11" column="19" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Core/src/com/ushahidi/android/app/ui/phone/AddReportActivity.java">
+    <entry file="file://$PROJECT_DIR$/Core/gen/com/ushahidi/android/app/BuildConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="280" column="50" selection-start="7921" selection-end="7921" vertical-scroll-proportion="0.69147">
+        <state line="1" column="8" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/gen/com/ushahidi/android/app/Manifest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/gen/com/ushahidi/android/app/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="8" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/CheckinMapItemizedOverlay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="8" selection-start="8" selection-end="36" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#4009#4017#0" expanded="true" />
-            <element signature="e#4072#4080#0" expanded="true" />
-            <element signature="e#4148#4164#0" expanded="true" />
-            <element signature="e#11292#11299#0" expanded="true" />
-            <element signature="e#13467#13604#0" expanded="true" />
-            <element signature="e#13595#13596#0" expanded="true" />
-            <element signature="e#13936#14073#0" expanded="true" />
-            <element signature="e#14064#14065#0" expanded="true" />
-            <element signature="e#14421#14772#0" expanded="true" />
-            <element signature="e#14763#14764#0" expanded="true" />
-            <element signature="e#14831#14968#0" expanded="true" />
-            <element signature="e#14959#14960#0" expanded="true" />
-            <element signature="e#15034#15461#0" expanded="true" />
-            <element signature="e#15452#15453#0" expanded="true" />
-            <element signature="e#15809#16231#0" expanded="true" />
-            <element signature="e#16222#16223#0" expanded="true" />
-            <element signature="e#16290#16427#0" expanded="true" />
-            <element signature="e#16418#16419#0" expanded="true" />
-            <element signature="e#16493#17125#0" expanded="true" />
-            <element signature="e#17116#17117#0" expanded="true" />
-            <element signature="e#17445#18002#0" expanded="true" />
-            <element signature="e#17990#17991#0" expanded="true" />
-            <element signature="e#18052#18254#0" expanded="true" />
-            <element signature="e#18242#18243#0" expanded="true" />
-            <element signature="e#18841#18983#0" expanded="true" />
-            <element signature="e#18974#18975#0" expanded="true" />
-            <element signature="e#19336#19478#0" expanded="true" />
-            <element signature="e#19469#19470#0" expanded="true" />
-            <element signature="e#19886#20024#0" expanded="true" />
-            <element signature="e#20015#20016#0" expanded="true" />
-            <element signature="e#20080#20307#0" expanded="true" />
-            <element signature="e#20298#20299#0" expanded="true" />
-            <element signature="e#20672#20810#0" expanded="true" />
-            <element signature="e#20801#20802#0" expanded="true" />
-            <element signature="e#20866#21052#0" expanded="true" />
-            <element signature="e#21043#21044#0" expanded="true" />
-            <element signature="e#24979#25192#0" expanded="true" />
-            <element signature="e#25188#25189#0" expanded="true" />
-            <element signature="e#25258#25491#0" expanded="true" />
-            <element signature="e#25487#25488#0" expanded="true" />
+            <element signature="e#574#597#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1508" selection-end="1550" vertical-scroll-proportion="0.4529828">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -908,7 +1240,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Core</last-edited>
+          <last-edited>Mangroves</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
