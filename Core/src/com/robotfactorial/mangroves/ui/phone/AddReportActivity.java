@@ -61,6 +61,7 @@ import android.widget.ListView;
 import android.widget.TimePicker;
 import android.widget.ViewSwitcher;
 
+import com.flurry.android.FlurryAgent;
 import com.robotfactorial.mangroves.ImageManager;
 import com.robotfactorial.mangroves.R;
 import com.robotfactorial.mangroves.activities.BaseEditMapActivity;
@@ -182,7 +183,15 @@ public class AddReportActivity extends
 
 	@Override
 	protected void onStart() {
-		super.onStart();
+		super.onStart();    //To change body of overridden methods use File | Settings | File Templates.
+		FlurryAgent.onStartSession(this, "KK7J627DVMWCF7J6WB5B");
+
+	}
+
+	@Override
+	protected void onStop() {
+		super.onStop();    //To change body of overridden methods use File | Settings | File Templates.
+		FlurryAgent.onEndSession(this);
 	}
 
 	@Override
