@@ -50,6 +50,10 @@
         android:theme="@style/Theme.Ushahidi" >
         <uses-library android:name="com.google.android.maps" />
 
+        <!-- Start of Crittercism.com Code -->
+        <activity android:name="com.crittercism.NotificationActivity"/>
+        <!-- End of Crittercism.com Code -->
+
         <!-- Settings -->
         <activity
             android:name=".Settings"

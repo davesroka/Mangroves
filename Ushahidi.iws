@@ -25,7 +25,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/res/drawable/logo.png" afterPath="$PROJECT_DIR$/Themes/Mangroves/res/drawable/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/res/drawable/splash.png" afterPath="$PROJECT_DIR$/Themes/Mangroves/res/drawable/splash.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/Core.iml" afterPath="$PROJECT_DIR$/Core/Core.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/AddReportActivity.java" afterPath="$PROJECT_DIR$/Core/src/com/robotfactorial/mangroves/ui/phone/AddReportActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Themes/Mangroves/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/Mangroves.iml" afterPath="$PROJECT_DIR$/Themes/Mangroves/Mangroves.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml" afterPath="$PROJECT_DIR$/Themes/Mangroves/res/values/theme.xml" />
@@ -672,7 +671,11 @@
       <created>1347987345481</created>
       <updated>1347987345481</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added flurry logging to add report page.">
+      <created>1347987794932</created>
+      <updated>1347987794932</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -763,7 +766,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed setting setDisplayHomeAsUpEnabled(true) to fix bug where you could back up to splash screen." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added flurry logging to add report page." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -781,6 +784,7 @@
     <MESSAGE value="Added &quot;add video&quot; button, non-functional." />
     <MESSAGE value="Changed package name to com.robotfactorial.mangroves, renamed all references" />
     <MESSAGE value="Removed setting setDisplayHomeAsUpEnabled(true) to fix bug where you could back up to splash screen." />
+    <MESSAGE value="Added flurry logging to add report page." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

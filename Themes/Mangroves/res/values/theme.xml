@@ -3,11 +3,11 @@
     <!-- DEPLOYMENT INFORMATION -->
     <string name="app_title">Mapping the Mangroves</string>
     <string name="deployment_url">http://mappingthemangroves.qfi.org</string>
-    <string name="team_url">http://ushahidi.com/about-us/team</string>
-    <string name="media_url">http://www.ushahidi.com</string>
-    <string name="twitter_url">http://twitter.com/ushahidi</string>
-    <string name="facebook_url">http://www.facebook.com/ushahidi</string>
-    <string name="contact_url">http://ushahidi.com/contact-us</string>
+    <string name="team_url">http://mappingthemangroves.qfi.org/page/index/1</string>
+    <!--<string name="media_url">http://www.ushahidi.com</string>-->
+    <!--<string name="twitter_url">http://twitter.com/ushahidi</string>-->
+    <!--<string name="facebook_url">http://www.facebook.com/ushahidi</string>-->
+    <string name="contact_url">http://mappingthemangroves.qfi.org/contact</string>
 
     <!-- DEPLOYMENT PROVIDER AUTHORITIES. USUALLY PACKAGE NAME AND CLASS NAME Eg. com.robotfactorial.mangroves.data.deploymentprovider -->
     <string name="provider_authorities">com.robotfactorial.mangroves.data.deploymentprovider</string>
@@ -28,12 +28,12 @@
     <drawable name="actionbar_background">@drawable/actionbar</drawable>
 
     <!-- COLOR CODES -->
-    <color name="title_color">#7C2811</color>
+    <color name="title_color">#ff333333</color>
     <color name="date_color">#262321</color>
     <color name="report_table">#f6f6ee</color>
     <color name="header_color">#3E51BC</color>
     <color name="background_color">#eeeeee</color>
-    <color name="thick_background_color">#DDD0A3</color>
+    <color name="thick_background_color">#ffdcdcdc</color>
     <color name="button_background_color">#ffffff</color>
     <color name="button_stroke_color">#cac7c0</color>
     <color name="white_color">#FFFFFF</color>
@@ -60,7 +60,7 @@
     <color name="table_odd_row_color">#ffc8e1ff</color>
     <color name="table_even_row_color">#ff87b0d9</color>
     <color name="table_selected_row_color">#e6ddbe</color>
-    <color name="table_header_color">#e6ddbe</color>
+    <color name="table_header_color">#ffdcdcdc</color>
     <color name="verified_text_color">#99CC99</color>
     <color name="unverified_text_color">#CC6666</color>
     <color name="tab_background">#1a1a1a</color>
