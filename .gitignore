@@ -3,6 +3,7 @@ out/
 CoreV3/
 gen/
 *.swp
+*.iws
 .settings
 .DS_Store
 Ushahidi/libs/
