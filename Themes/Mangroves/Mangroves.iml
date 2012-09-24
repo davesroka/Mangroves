@@ -44,6 +44,15 @@
     <orderEntry type="library" name="HttpClient" level="project" />
     <orderEntry type="library" name="HttpCore" level="project" />
     <orderEntry type="library" name="HttpMime" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../Core/libs/crittercism_v3_0_2_crashonly.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
 

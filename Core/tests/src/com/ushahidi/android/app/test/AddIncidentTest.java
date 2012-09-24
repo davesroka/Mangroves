@@ -1,5 +1,5 @@
 
-package com.ushahidi.android.app.test;
+package com.robotfactorial.mangroves.test;
 
 import java.util.Vector;
 
@@ -11,10 +11,10 @@ import android.test.UiThreadTest;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.ushahidi.android.app.IncidentAdd;
-import com.ushahidi.android.app.R;
-import com.ushahidi.android.app.Preferences;
-import com.ushahidi.android.app.data.Database;
+import com.robotfactorial.mangroves.IncidentAdd;
+import com.robotfactorial.mangroves.R;
+import com.robotfactorial.mangroves.Preferences;
+import com.robotfactorial.mangroves.data.Database;
 
 public class AddIncidentTest extends ActivityInstrumentationTestCase2<IncidentAdd> {
 
@@ -33,7 +33,7 @@ public class AddIncidentTest extends ActivityInstrumentationTestCase2<IncidentAd
     private Button mSendButton;
 
     public AddIncidentTest() {
-        super("com.ushahidi.android.app", IncidentAdd.class);
+        super("com.robotfactorial.mangroves", IncidentAdd.class);
     }
 
     /**

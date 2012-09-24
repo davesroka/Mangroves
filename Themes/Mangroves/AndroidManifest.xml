@@ -11,7 +11,7 @@
 	at team@ushahidi.com.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ushahidi.android.app"
+    package="com.robotfactorial.mangroves"
     android:versionCode="27"
     android:versionName="3.0.2" >
 
@@ -49,6 +49,10 @@
         android:label="@string/app_title"
         android:theme="@style/Theme.Ushahidi" >
         <uses-library android:name="com.google.android.maps" />
+
+        <!-- Start of Crittercism.com Code -->
+        <activity android:name="com.crittercism.NotificationActivity"/>
+        <!-- End of Crittercism.com Code -->
 
         <!-- Settings -->
         <activity
