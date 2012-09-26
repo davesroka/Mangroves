@@ -10,3 +10,5 @@ Ushahidi/libs/
 */secure.properties
 */ushahidi-key.keystore
 design docs/
+Ushahidi.iws
+atlassian-ide-plugin.xml
