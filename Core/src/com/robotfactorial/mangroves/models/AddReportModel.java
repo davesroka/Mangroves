@@ -38,7 +38,7 @@ import com.robotfactorial.mangroves.util.Util;
 public class AddReportModel extends Model {
 
 	public boolean addPendingReport(Report report, Vector<String> category,
-			File[] pendingPhotos, String news) {
+			File[] pendingPhotos, File[] pendingVideos, String news) {
 		boolean status;
 		// add pending reports
 		status = Database.mReportDao.addReport(report);
@@ -72,7 +72,22 @@ public class AddReportModel extends Model {
 						Database.mMediaDao.addMedia(media);
 					}
 				}
+			}
 
+			// add videos
+			if (pendingVideos != null && pendingVideos.length > 0) {
+				for (File file : pendingVideos) {
+					if (file.exists()) {
+						Media media = new Media();
+						media.setMediaId(0);
+						media.setLink(file.getName());
+
+						// get report ID;
+						media.setReportId(id);
+						media.setType(IMediaSchema.IMAGE);
+						Database.mMediaDao.addMedia(media);
+					}
+				}
 			}
 
 			// add news

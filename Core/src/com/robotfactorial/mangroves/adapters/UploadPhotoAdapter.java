@@ -66,7 +66,6 @@ public class UploadPhotoAdapter extends BaseListAdapter<Photo> {
 	 * @see android.widget.Adapter#getView(int, android.view.View,
 	 *      android.view.ViewGroup)
 	 */
-	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
 		View row = inflater.inflate(R.layout.upload_photo, parent, false);
 		Widgets widgets = (Widgets) row.getTag();

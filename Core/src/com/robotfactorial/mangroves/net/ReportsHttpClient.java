@@ -20,19 +20,25 @@
 
 package com.robotfactorial.mangroves.net;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
+import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.SocketTimeoutException;
+import java.net.URL;
 import java.nio.charset.Charset;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
+import android.util.Log;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
+import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.conn.ConnectTimeoutException;
+import org.apache.http.entity.mime.HttpMultipartMode;
 import org.apache.http.entity.mime.MultipartEntity;
+import org.apache.http.entity.mime.content.AbstractContentBody;
 import org.apache.http.entity.mime.content.FileBody;
 import org.apache.http.entity.mime.content.StringBody;
 
@@ -43,6 +49,7 @@ import com.robotfactorial.mangroves.ImageManager;
 import com.robotfactorial.mangroves.Preferences;
 import com.robotfactorial.mangroves.util.ApiUtils;
 import com.robotfactorial.mangroves.util.ReportsApiUtils;
+import org.apache.http.impl.client.DefaultHttpClient;
 
 /**
  * @author eyedol
@@ -50,6 +57,15 @@ import com.robotfactorial.mangroves.util.ReportsApiUtils;
 public class ReportsHttpClient extends MainHttpClient {
 
 	private static MultipartEntity entity;
+
+	private static String YOUTUBE_CLIENT_KEY = "AI39si729rjJcniA-JMG_VCDi3QQixlGpOOmNBzl9r-8dCxcibqtiVOm7WZIC8b4W3RUnqVgtN4vuMzEbGURiRKmfwnKOMFy4Q";
+	private static String YOUTUBE_USER = "mappingthemangroves@gmail.com";
+	private static String YOUTUBE_PASSWORD = "cyne-ghy-bu-xo";
+
+	private String incidentTitle;
+	private String incidentDescription;
+	private String youTubeAuthToken;
+	private String uploadURL, uploadToken;
 
 	/**
 	 * @param context
@@ -137,14 +153,16 @@ public class ReportsHttpClient extends MainHttpClient {
 			final HttpPost httpost = new HttpPost(URL);
 
 			if (params != null) {
+				incidentTitle = params.get("incident_title");
+				incidentDescription = params.get("incident_description");
 
 				entity.addPart("task", new StringBody(params.get("task")));
 				entity.addPart(
 						"incident_title",
-						new StringBody(params.get("incident_title"), Charset
+						new StringBody(incidentTitle, Charset
 								.forName("UTF-8")));
 				entity.addPart("incident_description",
-						new StringBody(params.get("incident_description"),
+						new StringBody(incidentDescription,
 								Charset.forName("UTF-8")));
 				entity.addPart("incident_date",
 						new StringBody(params.get("incident_date")));
@@ -184,14 +202,29 @@ public class ReportsHttpClient extends MainHttpClient {
 						log("filenames "
 								+ ImageManager.getPhotoPath(context,
 										filenames[0]));
-						for (int i = 0; i < filenames.length; i++) {
+						for (String filename : filenames) {
 							if (ImageManager
-									.getPhotoPath(context, filenames[i]) != null) {
+									.getPhotoPath(context, filename) != null) {
 								File file = new File(ImageManager.getPhotoPath(
-										context, filenames[i]));
+										context, filename));
 								if (file.exists()) {
 									entity.addPart("incident_photo[]",
 											new FileBody(file));
+								}
+							}
+						}
+					}
+				}
+
+				if (params.get("videofilenames") != null) {
+					if (!TextUtils.isEmpty(params.get("videofilenames"))) {
+						String filenames[] = params.get("videofilenames").split(",");
+						for (String filename : filenames) {
+							if (ImageManager.getPhotoPath(context, filename) != null) {
+								File file = new File(ImageManager.getPhotoPath(context, filename));
+								String url = uploadVideo(file);
+								if (!url.isEmpty()) {
+									entity.addPart("incident_video", new StringBody(url));
 								}
 							}
 						}
@@ -237,5 +270,205 @@ public class ReportsHttpClient extends MainHttpClient {
 			return false;
 		}
 		return false;
+	}
+
+	private String uploadVideo(File file) {
+		String videoURL = "";
+
+		if (youTubeAuthToken.isEmpty()) {
+			youTubeAuthToken = youTubeAuth();
+		}
+
+		getUploadToken();
+		if (!uploadToken.isEmpty() && !uploadURL.isEmpty()) {
+			Map<String, AbstractContentBody> parts = new HashMap<String, AbstractContentBody>();
+			try {
+				parts.put("token", new StringBody(uploadToken, Charset.forName("UTF-8")));
+				parts.put("file", new FileBody(file, "video/mp4"));
+
+				String response = sendMultipartPost(uploadURL, new HashMap<String, String>(), parts, file.getAbsolutePath());
+				if (!response.isEmpty()) {
+					videoURL = String.format("http://www.youtube.com/watch?v=%s", response.split("id=")[1]);
+				}
+			} catch (UnsupportedEncodingException e) {
+				log("UnsupportedEncodingException", e);
+			}
+		}
+
+		return videoURL;
+	}
+
+	private String youTubeAuth() {
+		String authToken = "";
+
+		try {
+			URL authURL = new URL("https://www.google.com/accounts/ClientLogin");
+			String body, response;
+			Map<String, String> headers = new HashMap<String, String>();
+
+			headers.put("Content-Type", "application/x-www-form-urlencoded");
+			body = String.format("Email=%s&Passwd=%s&source=Ushahidi&service=youtube", YOUTUBE_USER, YOUTUBE_PASSWORD);
+
+			response = sendPostCall(authURL, headers, body);
+			if (!response.isEmpty()) {
+				String[] tokens = response.split("\n");
+				if (tokens.length >= 3) {
+					String authSet = tokens[tokens.length - 1];
+					if (authSet.startsWith("Auth=")) {
+						authToken = authSet.replace("Auth=", "");
+					}
+				}
+			}
+		} catch (MalformedURLException e) {
+			Log.e("Mangroves", "youTubeAuth - Malformed URL: " + e.getMessage());
+		}
+
+		return authToken;
+	}
+
+	private void getUploadToken() {
+		String category = "Nonprofit";
+		String keywords = "ushahidi";
+		StringBuilder xml = new StringBuilder();
+		Map<String, String> headers = new HashMap<String, String>();
+
+		try {
+			URL tokenURL = new URL("https://gdata.youtube.com/action/GetUploadToken");
+			xml.append("<?xml version=\"1.0\"?>");
+			xml.append("<entry xmlns=\"http://www.w3.org/2005/Atom\" xmlns:media=\"http://search.yahoo.com/mrss/\" xmlns:yt=\"http://gdata.youtube.com/schemas/2007\">");
+			xml.append("<media:group>");
+			xml.append(String.format("<media:title type=\"plain\">%s</media:title>", incidentTitle));
+			xml.append(String.format("<media:description type=\"plain\">%s</media:description>", incidentDescription));
+			xml.append(String.format("<media:category scheme=\"http://gdata.youtube.com/schemas/2007/categories.cat\">%s</media:category>", category));
+			xml.append(String.format("<media:keywords>%s</media:keywords>", keywords));
+			xml.append("</media:group>");
+			xml.append("</entry>");
+
+			headers.put("Authorization", String.format("GoogleLogin auth=\"%s\"", youTubeAuthToken));
+			headers.put("GData-Version", "2");
+			headers.put("X-GData-Key", String.format("key=%s", YOUTUBE_CLIENT_KEY));
+			headers.put("Content-Type", "application/atom+xml");
+			headers.put("Content-Length", String.format("%d", xml.length()));
+
+			String response = sendPostCall(tokenURL, headers, xml.toString());
+			if (!response.isEmpty()) {
+				uploadURL = response.split("</url>")[0].split("<url>")[1];
+				uploadToken = response.split("</token>")[0].split("<token>")[1];
+			}
+
+		} catch (MalformedURLException e) {
+			Log.e("Mangroves", "getUploadToken - Malformed URL: " + e.getMessage());
+		}
+	}
+
+	private static String sendPostCall(URL url, Map<String, String> headers, String body) {
+		HttpURLConnection conn = null;
+		OutputStream out;
+		InputStream in;
+		Writer writer;
+		String response = "";
+
+		try {
+			conn = (HttpURLConnection) url.openConnection();
+			conn.setRequestMethod("POST");
+			for (String header : headers.keySet()) {
+				conn.setRequestProperty(header, headers.get(header));
+			}
+			conn.setDoOutput(true);
+			conn.setFixedLengthStreamingMode(body.length());
+			conn.setDoInput(true);
+			conn.setUseCaches(false);
+			conn.setAllowUserInteraction(false);
+
+			if (body !=null && !body.equals("")) {
+				out = conn.getOutputStream();
+				writer = new OutputStreamWriter(out);
+				writer.write(body);
+				writer.flush();
+			}
+
+			in = conn.getInputStream();
+			response = readStream(in);
+		} catch (MalformedURLException e) {
+			Log.e("Mangroves", "sendPostCall - Malformed URL: " + e.getMessage());
+		} catch (IOException e) {
+			String errorMessage = "";
+			try {
+				in = conn.getErrorStream();
+				errorMessage = readStream(in);
+			} catch (IOException ex) {
+				Log.e("Mangroves", "sendPostCall - Error reading request error stream: " + ex.getMessage());
+			}
+
+			response = errorMessage;
+			Log.e("Mangroves", "sendPostCall - IO Exception: " + e.getMessage() + " --> " + errorMessage);
+		} finally {
+			if (conn != null)
+				conn.disconnect();
+		}
+
+		return response;
+	}
+
+	private static String sendMultipartPost(String url, Map<String, String> headers, Map<String, AbstractContentBody> parts, String filepath) {
+		HttpClient httpClient = new DefaultHttpClient();
+		HttpEntity responseEntity = null;
+		MultipartEntity reqEntity;
+
+		try {
+			HttpPost httpPost = new HttpPost(url);
+
+			File file = new File(filepath);
+
+			for (String header : headers.keySet()) {
+				httpPost.setHeader(header, headers.get(header));
+			}
+
+			reqEntity = new MultipartEntity(HttpMultipartMode.BROWSER_COMPATIBLE);
+			for (String part : parts.keySet()) {
+				reqEntity.addPart(part, parts.get(part));
+			}
+
+			httpPost.setEntity(reqEntity);
+			HttpResponse response = httpClient.execute(httpPost);
+			responseEntity = response.getEntity();
+
+			if (responseEntity != null) {
+				responseEntity.consumeContent();
+			}
+		} catch (IOException e) {
+			Log.e("Mangroves", "sendMultipartPost - IO Exception: " + e.getMessage());
+		} catch (Exception e) {
+			Log.e("Mangroves", "sendMultipartPost - Exception: " + e.getMessage());
+		} finally {
+			httpClient.getConnectionManager().shutdown();
+		}
+
+		if (responseEntity != null)
+			return responseEntity.toString();
+		else
+			return "";
+	}
+
+	private static String readStream(InputStream in) throws IOException {
+		if (in != null) {
+			Writer writer = new StringWriter();
+			char[] buffer = new char[1024];
+
+			try {
+				int n;
+				BufferedReader reader = new BufferedReader(new InputStreamReader(in, "UTF-8"));
+
+				while ((n = reader.read(buffer)) != -1) {
+					writer.write(buffer, 0, n);
+				}
+
+				return writer.toString();
+			} finally {
+				in.close();
+			}
+		} else {
+			return "";
+		}
 	}
 }

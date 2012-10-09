@@ -31,12 +31,10 @@ public class Photo extends Model implements IDbEntity {
 
 	private String photo;
 
-	@Override
 	public int getDbId() {
 		return id;
 	}
 
-	@Override
 	public void setDbId(int id) {
 		this.id = id;
 

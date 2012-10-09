@@ -46,11 +46,7 @@ import com.robotfactorial.mangroves.ImageManager;
 import com.robotfactorial.mangroves.Preferences;
 import com.robotfactorial.mangroves.R;
 import com.robotfactorial.mangroves.Settings;
-import com.robotfactorial.mangroves.adapters.CategorySpinnerAdater;
-import com.robotfactorial.mangroves.adapters.ListFetchedReportAdapter;
-import com.robotfactorial.mangroves.adapters.ListPendingReportAdapter;
-import com.robotfactorial.mangroves.adapters.ListReportAdapter;
-import com.robotfactorial.mangroves.adapters.UploadPhotoAdapter;
+import com.robotfactorial.mangroves.adapters.*;
 import com.robotfactorial.mangroves.entities.Photo;
 import com.robotfactorial.mangroves.fragments.BaseSectionListFragment;
 import com.robotfactorial.mangroves.models.AddReportModel;
@@ -372,7 +368,6 @@ public class ListReportFragment
 				.setAdapter(spinnerArrayAdapter,
 						new DialogInterface.OnClickListener() {
 
-							@Override
 							public void onClick(DialogInterface dialog,
 									int which) {
 
@@ -417,7 +412,6 @@ public class ListReportFragment
 		if (addReport != null) {
 			addReport.setOnClickListener(new OnClickListener() {
 
-				@Override
 				public void onClick(View v) {
 					launchAddReport(0);
 				}
@@ -428,7 +422,6 @@ public class ListReportFragment
 		if (refreshReport != null) {
 			refreshReport.setOnClickListener(new OnClickListener() {
 
-				@Override
 				public void onClick(View v) {
 					new RefreshReports(getActivity()).execute((String) null);
 				}
@@ -439,7 +432,6 @@ public class ListReportFragment
 		if (filterReport != null) {
 			filterReport.setOnClickListener(new OnClickListener() {
 
-				@Override
 				public void onClick(View v) {
 					showDropDownNav();
 				}
@@ -513,6 +505,8 @@ public class ListReportFragment
 				// load filenames
 				mParams.put("filename", new UploadPhotoAdapter(getActivity())
 						.pendingPhotos((int) report.getId()));
+
+				mParams.put("videofilenames", new UploadVideoAdapter(getActivity()).pendingVideos((int)report.getId()));
 
 				// upload
 				try {

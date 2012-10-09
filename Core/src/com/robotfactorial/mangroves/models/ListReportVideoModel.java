@@ -20,11 +20,17 @@
 
 package com.robotfactorial.mangroves.models;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+import android.content.Context;
 import com.robotfactorial.mangroves.database.Database;
 import com.robotfactorial.mangroves.entities.Media;
+import com.robotfactorial.mangroves.entities.Photo;
+import com.robotfactorial.mangroves.entities.Video;
+import com.robotfactorial.mangroves.util.PhotoUtils;
+import com.robotfactorial.mangroves.util.VideoUtils;
 
 /**
  * @author eyedol
@@ -38,6 +44,8 @@ public class ListReportVideoModel extends Model {
 	private List<Media> mMedia;
 
 	private List<ListReportVideoModel> mVideoModel;
+
+	private static final String PENDING = "pendingvideos/";
 
 	public int getId() {
 		return this.id;
@@ -84,6 +92,41 @@ public class ListReportVideoModel extends Model {
 		}
 
 		return mVideoModel;
+	}
+
+	public List<Video> getPendingVideos(Context context) {
+		List<Video> videos = new ArrayList<Video>();
+		File[] pendingVideos = VideoUtils.getPendingVideos(context);
+		if (pendingVideos != null && pendingVideos.length > 0) {
+			int id = 0;
+			for (File file : pendingVideos) {
+				if (file.exists()) {
+					id += 1;
+					Video video = new Video();
+					video.setDbId(id);
+					video.setVideo(PENDING + file.getName());
+					videos.add(video);
+				}
+			}
+
+		}
+
+		return videos;
+	}
+
+	public List<Video> getPendingVideosByReportId(int reportId) {
+		List<Video> videos = new ArrayList<Video>();
+		mMedia = Database.mMediaDao.fetchReportVideo(reportId);
+		if (mMedia != null && mMedia.size() > 0) {
+			for (Media item : mMedia) {
+				Video video = new Video();
+				video.setDbId(item.getDbId());
+				video.setVideo(item.getLink());
+				videos.add(video);
+			}
+		}
+
+		return videos;
 	}
 
 	public List<ListReportVideoModel> getVideosByReportId(int reportId) {

@@ -66,16 +66,14 @@ import com.robotfactorial.mangroves.ImageManager;
 import com.robotfactorial.mangroves.R;
 import com.robotfactorial.mangroves.activities.BaseEditMapActivity;
 import com.robotfactorial.mangroves.adapters.UploadPhotoAdapter;
-import com.robotfactorial.mangroves.entities.Category;
-import com.robotfactorial.mangroves.entities.Media;
-import com.robotfactorial.mangroves.entities.Photo;
-import com.robotfactorial.mangroves.entities.Report;
-import com.robotfactorial.mangroves.entities.ReportCategory;
+import com.robotfactorial.mangroves.adapters.UploadVideoAdapter;
+import com.robotfactorial.mangroves.entities.*;
 import com.robotfactorial.mangroves.models.AddReportModel;
 import com.robotfactorial.mangroves.models.ListReportModel;
 import com.robotfactorial.mangroves.tasks.GeocoderTask;
 import com.robotfactorial.mangroves.util.PhotoUtils;
 import com.robotfactorial.mangroves.util.Util;
+import com.robotfactorial.mangroves.util.VideoUtils;
 import com.robotfactorial.mangroves.views.AddReportView;
 
 /**
@@ -132,6 +130,7 @@ public class AddReportActivity extends
 	private int id = 0;
 
 	private UploadPhotoAdapter pendingPhoto;
+	private UploadVideoAdapter pendingVideo;
 
 	private String mErrorMessage;
 
@@ -159,6 +158,7 @@ public class AddReportActivity extends
 		view.mPickTime.setOnClickListener(this);
 		mCalendar = Calendar.getInstance();
 		pendingPhoto = new UploadPhotoAdapter(this);
+		pendingVideo = new UploadVideoAdapter(this);
 		view.gallery.setAdapter(pendingPhoto);
 		view.gallery.setOnItemClickListener(this);
 		view.mSwitcher.setFactory(this);
@@ -176,6 +176,7 @@ public class AddReportActivity extends
 			// add a new report
 			updateDisplay();
 			pendingPhoto.refresh();
+			pendingVideo.refresh();
 		}
 
 		registerForContextMenu(view.gallery);
@@ -281,7 +282,6 @@ public class AddReportActivity extends
 
 	}
 
-	@Override
 	public void onClick(View button) {
 		if (button.getId() == R.id.btnPicture) {
 			// get a file name for the photo to be uploaded
@@ -289,7 +289,7 @@ public class AddReportActivity extends
 			showDialog(DIALOG_CHOOSE_IMAGE_METHOD);
 
 		} else if (button.getId() == R.id.btnVideo){
-			videoName = Util.getDateTime() + ".mov";
+			videoName = Util.getDateTime() + ".mp4";
 			showDialog(DIALOG_CHOOSE_VIDEO_METHOD);
 		}
 		else if (button.getId() == R.id.add_category) {
@@ -384,6 +384,7 @@ public class AddReportActivity extends
 	private boolean addReport() {
 		log("Adding new reports to");
 		File[] pendingPhotos = PhotoUtils.getPendingPhotos(this);
+		File[] pendingVideos = VideoUtils.getPendingVideos(this);
 
 		Report report = new Report();
 
@@ -400,7 +401,7 @@ public class AddReportActivity extends
 		if (id == 0) {
 			// Add a new pending report
 			if (model.addPendingReport(report, mVectorCategories,
-					pendingPhotos, view.mNews.getText().toString())) {
+					pendingPhotos, pendingVideos, view.mNews.getText().toString())) {
 				// move saved photos
 				log("Moving photos to fetched folder");
 				ImageManager.movePendingPhotos(this);
@@ -456,6 +457,7 @@ public class AddReportActivity extends
 
 		// set the photos
 		pendingPhoto.refresh(id);
+		pendingVideo.refresh(id);
 
 		// set news
 		List<Media> newsMedia = model.fetchReportNews(reportId);
@@ -470,8 +472,10 @@ public class AddReportActivity extends
 			if (model.deleteReport(id)) {
 				// delete images
 				for (int i = 0; i < pendingPhoto.getCount(); i++) {
-					ImageManager.deletePendingPhoto(this, "/"
-							+ pendingPhoto.getItem(i).getPhoto());
+					ImageManager.deletePendingPhoto(this, "/" + pendingPhoto.getItem(i).getPhoto());
+				}
+				for (int i = 0; i < pendingVideo.getCount(); i++) {
+					ImageManager.deletePendingPhoto(this, "/" + pendingVideo.getItem(i).getVideo());
 				}
 				// return to report listing page.
 				finish();
@@ -559,7 +563,6 @@ public class AddReportActivity extends
 							public void onClick(DialogInterface dialog, int which) {
 								Intent intent = new Intent();
 								intent.setAction(Intent.ACTION_PICK);
-//								intent.setData(MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
 								intent.setData(MediaStore.Video.Media.EXTERNAL_CONTENT_URI);
 								startActivityForResult(intent, REQUEST_CODE_VIDEO);
 								dialog.dismiss();
@@ -577,8 +580,8 @@ public class AddReportActivity extends
 								Intent intent = new Intent(MediaStore.ACTION_VIDEO_CAPTURE);
 
 								  // create a file to save the video
-								intent.putExtra(MediaStore.EXTRA_OUTPUT, PhotoUtils
-										.getPhotoUri(videoName,
+								intent.putExtra(MediaStore.EXTRA_OUTPUT, VideoUtils
+										.getVideoUri(videoName,
 												AddReportActivity.this));  // set the image file name
 
 								intent.putExtra(MediaStore.EXTRA_VIDEO_QUALITY, 1); // set the video image quality to high
@@ -909,7 +912,6 @@ public class AddReportActivity extends
 	/**
 	 * Get check selected categories
 	 *
-	 * @param aSelectedCategories
 	 */
 	private boolean[] setCheckedCategories() {
 		// FIXME: Look into making this more efficient
@@ -968,6 +970,20 @@ public class AddReportActivity extends
 		}
 	}
 
+	private void addVideoToReport() {
+		File[] pendingVideos = VideoUtils.getPendingVideos(this);
+		if (pendingVideos != null && pendingVideos.length > 0) {
+			int id = 0;
+			for (File file : pendingVideos) {
+				id += 1;
+				Video video = new Video();
+				video.setDbId(id);
+				video.setVideo("pendingvideos/" + file.getName());
+				pendingVideo.addItem(video);
+			}
+		}
+	}
+
 	/**
 	 * Get shared text from other Android applications
 	 */
@@ -991,31 +1007,30 @@ public class AddReportActivity extends
 		super.onActivityResult(requestCode, resultCode, data);
 		if (resultCode == RESULT_OK) {
 			if (requestCode == REQUEST_CODE_CAMERA) {
-
 				Uri uri = PhotoUtils.getPhotoUri(photoName, this);
 				Bitmap bitmap = PhotoUtils.getCameraPhoto(this, uri);
 				PhotoUtils.savePhoto(this, bitmap, photoName);
-				log(String.format("REQUEST_CODE_CAMERA %dx%d",
-						bitmap.getWidth(), bitmap.getHeight()));
-
+				log(String.format("REQUEST_CODE_CAMERA %dx%d", bitmap.getWidth(), bitmap.getHeight()));
 			} else if (requestCode == REQUEST_CODE_IMAGE) {
-				Bitmap bitmap = PhotoUtils
-						.getGalleryPhoto(this, data.getData());
+				Bitmap bitmap = PhotoUtils.getGalleryPhoto(this, data.getData());
 				PhotoUtils.savePhoto(this, bitmap, photoName);
-				log(String.format("REQUEST_CODE_IMAGE %dx%d",
-						bitmap.getWidth(), bitmap.getHeight()));
-			}
-			else if (requestCode == CAPTURE_VIDEO_ACTIVITY_REQUEST_CODE) {
-
-
-
+				log(String.format("REQUEST_CODE_IMAGE %dx%d", bitmap.getWidth(), bitmap.getHeight()));
+			} else if (requestCode == CAPTURE_VIDEO_ACTIVITY_REQUEST_CODE) {
+				Uri uri = VideoUtils.getVideoUri(videoName, this);
+				File video = VideoUtils.getCameraVideo(uri);
+				VideoUtils.saveVideo(this, video, videoName);
+				log("CAPTURE_VIDEO_ACTIVITY_REQUEST_CODE");
 			} else if (requestCode == REQUEST_CODE_VIDEO) {
-
+				File video = VideoUtils.getGalleryVideo(this, data.getData());
+				VideoUtils.saveVideo(this, video, videoName);
+				log("REQUEST_CODE_VIDEO");
 			}
-			if (id > 0) {
+			if (id == 0) {
 				addPhotoToReport();
+				addVideoToReport();
 			} else {
 				pendingPhoto.refresh();
+				pendingVideo.refresh();
 			}
 		}
 	}
@@ -1109,7 +1124,6 @@ public class AddReportActivity extends
 	 * 
 	 * @see android.widget.ViewSwitcher.ViewFactory#makeView()
 	 */
-	@Override
 	public View makeView() {
 		ImageView i = new ImageView(this);
 		i.setAdjustViewBounds(true);
@@ -1121,13 +1135,6 @@ public class AddReportActivity extends
 		return i;
 	}
 
-	/**
-	 * (non-Javadoc)
-	 *
-	 * @see android.widget.AdapterView.OnItemClickListener#onItemClick(android.widget
-	 *      .AdapterView, android.view.View, int, long)
-	 */
-	@Override
 	public void onItemClick(AdapterView<?> parent, View view, int position,
 							long id) {
 		this.view.mSwitcher.setImageDrawable(ImageManager.getPendingDrawables(
@@ -1151,6 +1158,17 @@ public class AddReportActivity extends
 		}
 	}
 
+	private void deleteExistingVideo() {
+		File[] pendingVideos = VideoUtils.getPendingVideos(this);
+		if (pendingVideo != null && pendingVideos.length > 0) {
+			for (File file : pendingVideos) {
+				if (file.exists()) {
+					file.delete();
+				}
+			}
+		}
+	}
+
 	/*
 	 * (non-Javadoc)
 	 * 
@@ -1161,6 +1179,7 @@ public class AddReportActivity extends
 	@Override
 	protected boolean onDiscardChanges() {
 		deleteExistingPhoto();
+		deleteExistingVideo();
 		return true;
 	}
 

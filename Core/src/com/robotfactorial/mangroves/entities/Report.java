@@ -71,7 +71,6 @@ public class Report implements IDbEntity {
 
 	}
 
-	@Override
 	public int getDbId() {
 		return id;
 	}
@@ -164,7 +163,6 @@ public class Report implements IDbEntity {
 		this.image = image;
 	}
 
-	@Override
 	public void setDbId(int id) {
 		this.id = id;
 	}
