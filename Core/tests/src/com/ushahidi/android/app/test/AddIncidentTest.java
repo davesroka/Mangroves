@@ -1,5 +1,5 @@
 
-package com.qfi.mangroves.test;
+package org.qfi.mangroves.test;
 
 import java.util.Vector;
 
@@ -11,10 +11,10 @@ import android.test.UiThreadTest;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.qfi.mangroves.IncidentAdd;
-import com.qfi.mangroves.R;
-import com.qfi.mangroves.Preferences;
-import com.qfi.mangroves.data.Database;
+import org.qfi.mangroves.IncidentAdd;
+import org.qfi.mangroves.R;
+import org.qfi.mangroves.Preferences;
+import org.qfi.mangroves.data.Database;
 
 public class AddIncidentTest extends ActivityInstrumentationTestCase2<IncidentAdd> {
 
@@ -33,7 +33,7 @@ public class AddIncidentTest extends ActivityInstrumentationTestCase2<IncidentAd
     private Button mSendButton;
 
     public AddIncidentTest() {
-        super("com.qfi.mangroves", IncidentAdd.class);
+        super("org.qfi.mangroves", IncidentAdd.class);
     }
 
     /**

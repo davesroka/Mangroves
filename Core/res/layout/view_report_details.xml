@@ -19,6 +19,6 @@
         android:layout_width="0px"
         android:layout_height="fill_parent"
         android:layout_weight="30"
-        class="com.qfi.mangroves.fragments.ViewReportFragment" />
+        class="org.qfi.mangroves.fragments.ViewReportFragment" />
 
 </FrameLayout>
