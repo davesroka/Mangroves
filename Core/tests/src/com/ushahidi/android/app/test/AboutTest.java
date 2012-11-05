@@ -1,7 +1,7 @@
 
-package com.robotfactorial.mangroves.test;
+package com.qfi.mangroves.test;
 
-import com.robotfactorial.mangroves.About;
+import com.qfi.mangroves.About;
 
 import android.content.Intent;
 import android.test.ActivityInstrumentationTestCase2;
@@ -16,7 +16,7 @@ public class AboutTest extends ActivityInstrumentationTestCase2<About> {
     private String aboutString;
 
     public AboutTest() {
-        super("com.robotfactorial.mangroves", About.class);
+        super("com.qfi.mangroves", About.class);
     }
 
     protected void setUp() throws Exception {
@@ -26,7 +26,7 @@ public class AboutTest extends ActivityInstrumentationTestCase2<About> {
         setActivityIntent(new Intent(Intent.ACTION_VIEW));
         aboutActivity = this.getActivity();
         aboutVersionView = (TextView)aboutActivity
-                .findViewById(com.robotfactorial.mangroves.R.id.version);
+                .findViewById(com.qfi.mangroves.R.id.version);
         aboutString = aboutActivity.getPackageManager().getPackageInfo(
                 aboutActivity.getPackageName(), 0).versionName;
     }

@@ -180,7 +180,8 @@
             <Button
                     android:id="@+id/btnVideo"
                     style="@style/Button.Select"
-                    android:text="@string/add_video" />
+                    android:text="@string/add_video"
+                    android:visibility="gone" />
 
             <LinearLayout
                 style="@style/LinearLayout.Horizontal"

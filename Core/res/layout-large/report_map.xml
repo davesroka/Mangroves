@@ -29,7 +29,7 @@
         android:id="@+id/map_fragment"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        class="com.robotfactorial.mangroves.ui.tablet.MapFragment" />
+        class="com.qfi.mangroves.ui.tablet.MapFragment" />
     </LinearLayout>
 
 </LinearLayout>

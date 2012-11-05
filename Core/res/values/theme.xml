@@ -13,7 +13,7 @@
     <string name="facebook_url"/>
     <string name="contact_url"/>
     
-    <!-- DEPLOYMENT PROVIDER AUTHORITIES. USUALLY PACKAGE NAME AND CLASS NAME Eg. com.robotfactorial.mangroves.data.deploymentprovider -->
+    <!-- DEPLOYMENT PROVIDER AUTHORITIES. USUALLY PACKAGE NAME AND CLASS NAME Eg. com.qfidata.deploymentprovider -->
     <string name="provider_authorities"/>
 
 	<!-- ICON IMAGES -->

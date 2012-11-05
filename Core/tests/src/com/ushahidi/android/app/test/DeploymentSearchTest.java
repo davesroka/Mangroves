@@ -1,5 +1,5 @@
 
-package com.robotfactorial.mangroves.test;
+package com.qfi.mangroves.test;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -9,11 +9,11 @@ import android.test.UiThreadTest;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 
-import com.robotfactorial.mangroves.DeploymentSearch;
-import com.robotfactorial.mangroves.R;
-import com.robotfactorial.mangroves.MainApplication;
-import com.robotfactorial.mangroves.data.Database;
-import com.robotfactorial.mangroves.net.Deployments;
+import com.qfi.mangroves.DeploymentSearch;
+import com.qfi.mangroves.R;
+import com.qfi.mangroves.MainApplication;
+import com.qfi.mangroves.data.Database;
+import com.qfi.mangroves.net.Deployments;
 
 public class DeploymentSearchTest extends ActivityInstrumentationTestCase2<DeploymentSearch> {
 
@@ -32,7 +32,7 @@ public class DeploymentSearchTest extends ActivityInstrumentationTestCase2<Deplo
     private Location location;
 
     public DeploymentSearchTest() {
-        super("com.robotfactorial.mangroves", DeploymentSearch.class);
+        super("com.qfi.mangroves", DeploymentSearch.class);
         // TODO Auto-generated constructor stub
     }
 

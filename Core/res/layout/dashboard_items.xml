@@ -20,6 +20,6 @@
         android:id="@+id/list_map_fragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        class="com.robotfactorial.mangroves.fragments.ListMapFragment" />
+        class="com.qfi.mangroves.fragments.ListMapFragment" />
 
 </LinearLayout>

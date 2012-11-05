@@ -3,4 +3,4 @@
     android:id="@+id/map_fragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    class="com.robotfactorial.mangroves.ui.tablet.ListCheckinFragment"/>
+    class="com.qfi.mangroves.ui.tablet.ListCheckinFragment"/>

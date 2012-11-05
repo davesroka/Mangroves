@@ -9,7 +9,7 @@
     <!--<string name="facebook_url">http://www.facebook.com/ushahidi</string>-->
     <string name="contact_url">http://mappingthemangroves.qfi.org/contact</string>
 
-    <!-- DEPLOYMENT PROVIDER AUTHORITIES. USUALLY PACKAGE NAME AND CLASS NAME Eg. com.robotfactorial.mangroves.data.deploymentprovider -->
+    <!-- DEPLOYMENT PROVIDER AUTHORITIES. USUALLY PACKAGE NAME AND CLASS NAME Eg. com.qfidata.deploymentprovider -->
     <string name="provider_authorities">com.robotfactorial.mangroves.data.deploymentprovider</string>
 
     <!-- NAMESPACE  -->
