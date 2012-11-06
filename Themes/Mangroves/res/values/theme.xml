@@ -10,10 +10,10 @@
     <string name="contact_url">http://mappingthemangroves.qfi.org/contact</string>
 
     <!-- DEPLOYMENT PROVIDER AUTHORITIES. USUALLY PACKAGE NAME AND CLASS NAME Eg. com.qfidata.deploymentprovider -->
-    <string name="provider_authorities">com.robotfactorial.mangroves.data.deploymentprovider</string>
+    <string name="provider_authorities">org.qfi.mangroves.data.deploymentprovider</string>
 
     <!-- NAMESPACE  -->
-    <string name="rounded_corner">http://schemas.android.com/apk/res/com.robotfactorial.mangroves</string>
+    <string name="rounded_corner">http://schemas.android.com/apk/res/org.qfi.mangroves</string>
     <!-- ICON IMAGES -->
     <drawable name="app_icon">@drawable/icon</drawable>
     <drawable name="logo_icon">@drawable/logo</drawable>
